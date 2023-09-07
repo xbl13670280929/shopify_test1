@@ -28,10 +28,26 @@ info	有关设置的信息文本选项。	不
 {{ shop.name }}
 {{ shop.moneyFormat }}
 
+## request
+{{ request.locale }}
+{{ request.path }}
 
-# render
+
+# 渲染子节点
+
+## render
 {%- render 'icon-facebook' -%}
 snippets/icon-facebook.liquid
+
+## sections
+{% sections 'header-group' %}
+sections/header-group.json
+announcement-bar.liquid
+header.liquid
+
+{% sections 'footer-group' %}
+sections/footer-group.json
+footer.liquid
 
 
 # 判断为空
