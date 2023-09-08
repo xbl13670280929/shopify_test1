@@ -1,0 +1,41 @@
+$desktop-max-width: 1440px;
+$desktop-width: 1024px;
+$tablet-width: 768px;
+$mobile-width: 375px;
+
+@mixin devices($type) {
+    // 1440+ 超大屏
+    @if $type == desktop-max {
+        @media only screen and (width >= $desktop-max-width) {
+            @content;
+        }
+    }
+
+    // [1024 ~ 1440) 电脑
+    @if $type == desktop {
+        @media ((width >= $desktop-width) and (width < $desktop-max-width)) {
+            @content;
+        }
+    }
+
+    // [1024 ~ ) 电脑
+    @if $type == pc {
+        @media (width >= $desktop-width) {
+            @content;
+        }
+    }
+
+    // [768 ~ 1024) pad
+    @if $type == pad {
+        @media (width < $desktop-width) {
+            @content;
+        }
+    }
+
+    // [0 ~ 768) h5
+    @if $type == h5 {
+        @media (width < $tablet-width) {
+            @content;
+        }
+    }
+}
