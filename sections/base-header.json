@@ -5,6 +5,7 @@
     "base-header-nav": {
       "type": "base-header-nav",
       "settings": {
+        "menua_title": "宝盒",
         "color_scheme": "background-1"
       }
     }

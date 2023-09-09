@@ -1,1 +1,39 @@
-<div>base-header</div>
+<div class="base-header">
+    <div class="ef-content">
+        <div class="header-l">
+            {%- render 'icon-facebook' -%}
+        </div>
+        <div class="header-c">
+            <div class="header-menu-item">{{ section.settings.menua_title }}</div>
+            <div class="header-menu-item">{{ section.settings.menub_title }}</div>
+            <div class="header-menu-item">{{ section.settings.menuc_title }}</div>
+        </div>
+        <div class="header-r">334</div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "t:sections.footer.name",
+    "settings": [
+        {
+            "type": "menua_title",
+            "id": "menua_title",
+            "label": "t:sections.all.colors.label",
+            "default": "Mac"
+        },
+        {
+            "type": "menub_title",
+            "id": "menub_title",
+            "label": "t:sections.all.colors.label",
+            "default": "iPad"
+        },
+        {
+            "type": "menuc_title",
+            "id": "menuc_title",
+            "label": "t:sections.all.colors.label",
+            "default": "iPhone"
+        }
+    ]
+}
+{% endschema %}

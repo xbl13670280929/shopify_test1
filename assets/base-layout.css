@@ -20,3 +20,28 @@
     padding: 0 24px;
   }
 }
+
+/* 头部导航 */
+.base-header .ef-content {
+  display: flex;
+  height: 52px;
+}
+.base-header .header-l {
+  width: 48px;
+}
+.base-header .header-l svg {
+  width: 48px;
+  height: 48px;
+}
+.base-header .header-c {
+  flex: 1;
+  margin-left: 20px;
+  line-height: 52px;
+  display: flex;
+}
+.base-header .header-c .header-menu-item {
+  margin-left: 20px;
+}
+.base-header .header-c .header-menu-item:first-child {
+  margin-left: 0;
+}
