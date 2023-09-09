@@ -1,4 +1,5 @@
 {
+  "layout": "testb.layout",
   "sections": {
     "main": {
       "type": "main-testb",
