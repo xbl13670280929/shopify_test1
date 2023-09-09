@@ -4,8 +4,38 @@
   "sections": {
     "base-header-nav": {
       "type": "base-header-nav",
+      "blocks": {
+        "75c70291-1e80-4050-be79-c8e92740c358": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick 1",
+            "menu": "footer"
+          }
+        },
+        "330525ee-d03b-44ac-b82c-b760b1533930": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick 2",
+            "menu": "footer"
+          }
+        },
+        "41116bb0-b999-4457-8e92-47fe410c1691": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick 3",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "75c70291-1e80-4050-be79-c8e92740c358",
+        "330525ee-d03b-44ac-b82c-b760b1533930",
+        "41116bb0-b999-4457-8e92-47fe410c1691"
+      ],
       "settings": {
-        "color_scheme": "background-1"
+        "menua_title": "Mac",
+        "menub_title": "iPad",
+        "menuc_title": "iPhone"
       }
     }
   },
