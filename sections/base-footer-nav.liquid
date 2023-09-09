@@ -3,7 +3,7 @@
     <div class="ef-content">
         <img src={{ imgA1 | asset_img_url }} loading="eager" width="48" height="48" />
         <div>B1:{{ section.settings.imgB1 }}</div>
-        <img src={{ section.settings.imgB1 }} loading="eager" width="48" height="48" />
+        <img src={{ section.settings.imgB1 | image_url }} loading="eager" width="48" height="48" />
         <div>C1:{{ section.settings.imgC1 }}</div>
         <img src={{ section.settings.imgC1 }} loading="eager" width="48" height="48" />
     </div>
