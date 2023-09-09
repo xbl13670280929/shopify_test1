@@ -13,12 +13,10 @@
     </div>
     <div class="base-header-subwin">
         <div class="ef-content">
-            <div>1111:{{ section.blocks.size }}</div>
             {%- for block in section.blocks -%}
-                {{ block.type  }}
                 {%- case block.type -%}
                     {%- when 'link_list' -%}
-                        <div>222</div>
+                        <div>{{ block.settings.heading }}</div>
                 {%- endcase -%}
             {% endfor %}
         </div>
@@ -55,6 +53,7 @@
         }
         classListUtil.removeClass(document.querySelectorAll('.base-header .header-menu-item'), 'hover');
         document.querySelector('.base-header .header-menu-item[data-type=' + datatype + ']').classList.add('hover');
+        document.querySelector('.base-header').classList.toggle("show-subwin")
     };
     bindEventUtil.bind(document.querySelectorAll('#neader-menu-nav .header-menu-item'), 'click', function() {
         const datatype = this.getAttribute('data-type');
