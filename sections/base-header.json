@@ -1,11 +1,10 @@
 {
-  "name": "t:sections.header.name",
+  "name": "头部导航",
   "type": "header",
   "sections": {
     "base-header-nav": {
       "type": "base-header-nav",
       "settings": {
-        "menua_title": "宝盒",
         "color_scheme": "background-1"
       }
     }
