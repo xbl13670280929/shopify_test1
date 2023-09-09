@@ -1,3 +1,4 @@
+{% assign selectItemF = "menua" %}
 <div class="base-header">
     <div class="ef-content base-header-nav">
         <div class="header-l">
@@ -8,10 +9,19 @@
             <div class="header-menu-item" data-type="menub">{{ section.settings.menub_title }}</div>
             <div class="header-menu-item" data-type="menuc">{{ section.settings.menuc_title }}</div>
         </div>
-        <div class="header-r">334</div>
+        <div class="header-r">{{ selectItemF }}</div>
     </div>
     <div class="base-header-subwin">
-        <div class="ef-content">11</div>
+        <div class="ef-content">
+            <div>1111:{{ section.blocks.size }}</div>
+            {%- for block in section.blocks -%}
+                {{ block.type  }}
+                {%- case block.type -%}
+                    {%- when 'link_list' -%}
+                        <div>222</div>
+                {%- endcase -%}
+            {% endfor %}
+        </div>
     </div>
 </div>
 
@@ -49,6 +59,7 @@
     bindEventUtil.bind(document.querySelectorAll('#neader-menu-nav .header-menu-item'), 'click', function() {
         const datatype = this.getAttribute('data-type');
         datatype && switchToType(datatype);
+        console.log('data 22', datatype);
     });
 })();
 </script>
@@ -74,6 +85,27 @@
             "id": "menuc_title",
             "label": "分类C",
             "default": "iPhone"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "link_list",
+            "name": "t:sections.footer.blocks.link_list.name",
+            "settings": [
+                {
+                    "type": "inline_richtext",
+                    "id": "heading",
+                    "default": "Quick links",
+                    "label": "t:sections.footer.blocks.link_list.settings.heading.label"
+                },
+                {
+                    "type": "link_list",
+                    "id": "menu",
+                    "default": "footer",
+                    "label": "t:sections.footer.blocks.link_list.settings.menu.label",
+                    "info": "t:sections.footer.blocks.link_list.settings.menu.info"
+                }
+            ]
         }
     ]
 }
