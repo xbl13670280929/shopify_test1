@@ -1,16 +1,57 @@
 <div class="base-header">
-    <div class="ef-content">
+    <div class="ef-content base-header-nav">
         <div class="header-l">
             {%- render 'icon-facebook' -%}
         </div>
-        <div class="header-c">
-            <div class="header-menu-item">{{ section.settings.menua_title }}</div>
-            <div class="header-menu-item">{{ section.settings.menub_title }}</div>
-            <div class="header-menu-item">{{ section.settings.menuc_title }}</div>
+        <div class="header-c" id="neader-menu-nav">
+            <div class="header-menu-item" data-type="menua">{{ section.settings.menua_title }}</div>
+            <div class="header-menu-item" data-type="menub">{{ section.settings.menub_title }}</div>
+            <div class="header-menu-item" data-type="menuc">{{ section.settings.menuc_title }}</div>
         </div>
         <div class="header-r">334</div>
     </div>
+    <div class="base-header-subwin">
+        <div class="ef-content">11</div>
+    </div>
 </div>
+
+<script>
+(function() {
+    const classListUtil = {
+        removeClass: function(elems, className) {
+            if(elems.length) {
+                for(let i = 0; i < elems.length; i++) {
+                    elems[i].classList.remove(className);
+                }
+            }else if(elems) {
+                elems.classList.remove(className);
+            }
+        }
+    }
+    const bindEventUtil = {
+        bind: function(elems, name, cb) {
+            if(elems.length) {
+                for(let i = 0; i < elems.length; i++) {
+                    elems[i].addEventListener(name, cb);
+                }
+            }else if(elems) {
+                elems.addEventListener(name, cb);
+            }
+        },
+    };
+    const switchToType = function(datatype) {
+        if(!datatype) {
+            return;
+        }
+        classListUtil.removeClass(document.querySelectorAll('.base-header .header-menu-item'), 'hover');
+        document.querySelector('.base-header .header-menu-item[data-type=' + datatype + ']').classList.add('hover');
+    };
+    bindEventUtil.bind(document.querySelectorAll('#neader-menu-nav .header-menu-item'), 'click', function() {
+        const datatype = this.getAttribute('data-type');
+        datatype && switchToType(datatype);
+    });
+})();
+</script>
 
 {% schema %}
 {

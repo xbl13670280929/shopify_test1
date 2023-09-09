@@ -22,7 +22,7 @@
 }
 
 /* 头部导航 */
-.base-header .ef-content {
+.base-header .base-header-nav {
   display: flex;
   height: 52px;
 }
@@ -40,8 +40,34 @@
   display: flex;
 }
 .base-header .header-c .header-menu-item {
+  position: relative;
   margin-left: 20px;
+  cursor: pointer;
+}
+.base-header .header-c .header-menu-item.hover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
 }
 .base-header .header-c .header-menu-item:first-child {
   margin-left: 0;
+}
+
+/* 头部导航-2级菜单 */
+.base-header-subwin {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  width: 100%;
+  display: none;
+  background-color: #fff;
+}
+
+/* 头部导航-2级菜单-显示 */
+.base-header.show-subwin .base-header-subwin {
+  display: block;
 }
