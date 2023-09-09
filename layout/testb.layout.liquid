@@ -3,6 +3,8 @@
   <head>
     {% render 'pagefly-head' %}
     <meta charset="utf-8">
+    {{ 'base-global.css' | asset_url | stylesheet_tag }}
+    {{ 'base-layout.css' | asset_url | stylesheet_tag }}
     {{ content_for_header }}
   </head>
 
@@ -18,7 +20,7 @@
       {{ content_for_layout }}
     </main>
 
-    {% sections 'footer-group' %}
+    {% sections 'base-footer' %}
 
   </body>
 </html>
