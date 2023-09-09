@@ -1,1 +1,22 @@
-<div>footer</div>
+{% assign imgA1 = "logo.png" %}
+<div class="base-footer">
+    <div class="ef-content">
+        <img src={{ imgA1 | asset_img_url }} loading="eager" width="48" height="48" />
+        <div>{{ section.settings.imgB1 }}</div>
+        <img src={{ section.settings.imgB1 }} loading="eager" width="48" height="48" />
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "t:sections.footer.name",
+        "settings": [
+            {
+                "type": "text",
+                "id": "imgB1",
+                "label": "图片A",
+                "default": "https://www.apple.com/v/iphone-14/i/images/key-features/features/size/size_yellow__dnv9794q7loy_large.jpg"
+            }
+        ]
+    }
+    {% endschema %}
