@@ -1,6 +1,14 @@
 {
   "layout": "testb.layout",
   "sections": {
+    "elembannera": {
+      "type": "elem-banner-a",
+      "settings": {
+        "image": "https://it.ecoflow.com/cdn/shop/files/PC_2560x540_2c37b4e0-9edf-4d00-9755-b01ac88e62f3.jpg?v=1684232102",
+        "title": "iPhone 6",
+        "subTitle": "iPhone 6 desc"
+      }
+    },
     "main": {
       "type": "main-testb",
       "settings": {
@@ -10,6 +18,7 @@
     }
   },
   "order": [
+    "elembannera",
     "main"
   ]
 }

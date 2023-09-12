@@ -1,0 +1,64 @@
+<div class="elem-banner-a">
+  <div class="banner-a-img">
+    <img
+      loading="lazy"
+      width="auto"
+      height="400"
+      src="{{ section.settings.image }}" />
+  </div>
+  <div class="banner-a-box">
+    <div class="banner-a-box-in">
+      <h1 class="banner-a-title">{{ section.settings.title }}</h1>
+      <div class="banner-a-subtitle">{{ section.settings.subTitle }}</div>
+    </div>
+  </div>
+</div>
+<style>
+  .elem-banner-a {
+    position: relative;
+    height: 600px;
+  }
+  .elem-banner-a .banner-a-img {
+    position: relative;
+    height: 100%;
+    text-align: center;
+  }
+  .elem-banner-a .banner-a-box-in {
+    max-width: 1200px;
+    text-align: left;
+    color: #fff;
+    margin: 0 auto;
+  }
+  .elem-banner-a .banner-a-img img {
+    height: 100%;
+  }
+  .elem-banner-a .banner-a-box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+  }
+</style>
+{% schema %}
+  {
+    "name": "首屏banner",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "image",
+        "label": "PC图片"
+      }, {
+        "type": "text",
+        "id": "title",
+        "label": "主标题"
+      }, {
+        "type": "text",
+        "id": "subTitle",
+        "label": "副标题"
+      }
+    ]
+  }
+{% endschema %}
