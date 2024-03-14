@@ -333,6 +333,155 @@
         },
         "maximum_discount_code_limit_reached": "Vi atingis la maksimuman nombron da rabataj kodoj. Forigu ekzistantan kodon por uzi <strong style=\"text-transform:uppercase\">%{code}<\/strong> .",
         "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> ne funkcias nun. Kontaktu nin por helpo."
+      },
+      "payment": {
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_number": "Enigu validan numeron"
+            },
+            "invalid": {
+              "verification_value": "Enigu validan CVV aŭ sekurecan kodon"
+            }
+          }
+        },
+        "simulated_checkout": "Antaŭrigardo baldaŭ venos",
+        "vaulting_agreement_label": "Konservu miajn pagajn informojn kun %{company} por pli rapida pago.",
+        "business_customer_vaulting_payment_label": "Konservu ĉi tiun karton ĉe la kontrolo kaj rajtigu %{company} ŝargi ĉi tiun karton por estontaj aĉetoj por ĉi tiu loko. Ĉiu kliento asignita al ĉi tiu loko estos rajtigita uzi ĉi tiun karton.",
+        "purchase_options_and_vaulting_agreement_label": "Unu aŭ pluraj eroj en via ĉaro estas prokrastita aŭ abonaĉeto. Daŭrigante vian pagon, vi konsentas, ke via pagmetodo aŭtomate estos ŝargita laŭ la prezo kaj ofteco listigitaj sur ĉi tiu paĝo ĝis ĝi finiĝos aŭ vi nuligos. Ĉiuj nuligoj estas submetitaj al %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "nuligopolitiko",
+        "use_different_credit_card_label": "Uzu malsaman karton",
+        "saved_credit_card": "Via konservita kreditkarto",
+        "saved_credit_card_info": "Lastaj kvar ciferoj",
+        "saved_credit_card_cvv_verification": "Por kontrolaj celoj, bonvolu enigi la sekurecan kodon de via karto.",
+        "saved_credit_card_actions": {
+          "edit": "Redakti",
+          "delete": "Forigi"
+        },
+        "saved_credit_cards_modal": {
+          "view_all_label": "Rigardu ĉiujn konservitajn kartojn",
+          "done": "Farita",
+          "cancel": "Nuligi"
+        },
+        "add_credit_card_modal": {
+          "title": "Aldonu karton",
+          "save": "Savi",
+          "cancel": "Nuligi"
+        },
+        "delete_credit_card_modal": {
+          "title": "Forigi karton",
+          "confirmation": "Ĉu vi certas, ke vi volas forigi la {{brandName}} finiĝantan per {{lastDigits}} ?",
+          "cancel": "Nuligi",
+          "delete": "Forigi"
+        },
+        "edit_credit_card_modal": {
+          "title": "Redakti karton",
+          "done": "Farita",
+          "cancel": "Nuligi",
+          "description": "Vi nur povas modifi la fakturadreson de via karto.",
+          "fields": {
+            "default": "Agordu kiel defaŭltan",
+            "card_number": "Kartonumero",
+            "expiry": "Findato",
+            "security_code": "Sekureca kodo",
+            "name": "Nomo sur karto",
+            "billing": "Bill al"
+          }
+        },
+        "expired_cards_info": {
+          "one": "Estas %{count} eksvalidiĝinta karto, kiun vi povas vidi kaj redakti en via konto.",
+          "other": "Estas %{count} eksvalidiĝintaj kartoj, kiujn vi povas vidi kaj redakti en via konto."
+        },
+        "local_payment_method_receiver_notice": "Post fari vian mendon, vi ricevos pagodetalojn. Faru la pagon ĉe ATM aŭ interrete ene de {{dueDays}} tagoj.",
+        "order_edit_banner_title": "Pago de {{amount_owed}} estas necesa",
+        "order_edit_banner_subtitle": "Via mendo {{order_number}} estis ĝisdatigita. Revizu ĉi tiujn ŝanĝojn, poste pagu por konfirmi vian mendon.",
+        "order_edit_banner_items_added": {
+          "one": "Aldonita",
+          "other": "%{count} aldonis"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Forigita",
+          "with_quantities": "{{delta}} el {{quantity}} forigita"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Revenis",
+          "with_quantities": "{{delta}} el {{quantity}} revenis"
+        },
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Forigita de reveno",
+          "with_quantities": "{{delta}} forigita de reveno"
+        },
+        "order_edit_banner_single_item_added": "Aldonita",
+        "order_edit_banner_multiple_items_added": "{{amount}} aldonita",
+        "order_edit_banner_single_item_removed": "Forigita",
+        "order_edit_banner_multiple_items_removed": "{{amount}} forigita",
+        "order_edit_banner_single_item_returned": "Revenis",
+        "order_edit_banner_multiple_items_returned": "{{amount}} resendita",
+        "order_edit_banner_single_item_return_line_item_removed": "Forigita de reveno",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} forigita de reveno",
+        "order_edit_banner_updated_order_label": "Ĝisdatigita ordo",
+        "gift_card_wrapper": {
+          "heading": "Donaca karto",
+          "apply_gift_card_label": "Apliki donackarton",
+          "apply_another_gift_card_label": "Apliku alian donackarton",
+          "gift_card_label": "Donackarto %{identifier}",
+          "payment_tag": "Donaca karto",
+          "add_label": "Aldonu donackarton",
+          "manage_label": "Administri donackartojn"
+        },
+        "gift_card_store_credit": {
+          "add_label": "Aldonu donackarton aŭ butikkrediton",
+          "manage_label": "Administri donackartojn aŭ stoki krediton"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Propra Surloka Pago-Konfirmo"
+        },
+        "markets_pro_disclaimer_label": "Klakante malsupre kaj kompletigante vian mendon, vi konsentas aĉeti vian(j)n aĵon(j) de Global-e kiel rekorda komercisto por ĉi tiu transakcio, laŭ %{markets_pro_terms} kaj %{privacy_policy} de Global-e. Global-e estas internacia plenuma servo provizanto al %{shop_name}",
+        "markets_pro_disclaimer_terms_and_conditions": "Terminoj kaj Kondiĉoj",
+        "markets_pro_disclaimer_privacy_policy": "Privateca Politiko",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Kondiĉoj kaj Kondiĉoj pri Komercisto de Rekordo",
+        "markets_pro_disclaimer_privacy_policy_title": "Privateca Politiko pri Komercisto de Rekordo",
+        "purchase_order_number": {
+          "title": "PO-numero",
+          "label": "PO-numero (laŭvola)"
+        },
+        "alternative_payment_currency_total_notice": "Noto: vi estos ŝargita %{amount_due}.",
+        "waiting_on_taxes_message": "Se viaj impostoj ne kalkulas en la sekvaj sekundoj, refreŝigu la paĝon.",
+        "waiting_on_taxes_notice": "Kalkulado de impostoj",
+        "payment_method": "Pagmaniero",
+        "expired_payment_method": "Elektita pagmetodo eksvalidiĝis",
+        "proposed_gateway_unavailable": "La proponita pagpordo estas neatingebla"
+      },
+      "billing": {
+        "billing_address_title": "Bill al",
+        "same_as_shipping": "Sama kiel senda adreso",
+        "add_address": "Uzu alian adreson",
+        "edit": "Redakti",
+        "delete": "Forigi",
+        "address_more": "Pli da agoj por ĉi tiu adreso",
+        "address_edit": "Redaktu adreson",
+        "address_delete": "Forigi adreson",
+        "address_confirm": "Ĉu vi certas, ke vi volas forigi ĉi tiun adreson de via konto?",
+        "address_form": {
+          "add_address": "Aldonu adreson",
+          "save": "Savi",
+          "cancel": "Nuligi"
+        }
+      },
+      "company_location": {
+        "location_title": "Loko"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Nuna saldo %{amount}",
+        "credit_card_expires_on_notice": "Eksvalidiĝas je %{month}\/%{year}",
+        "manual_payment_gateway_label": "Manlibro",
+        "billing_address_title": "Faktura adreso",
+        "free_label": "Senpaga"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Enigu validan telefonnumeron",
+        "handle_email_invalid": "Enigu validan retpoŝton",
+        "email_invalid": "Enigu validan retpoŝton"
       }
     }
   }
