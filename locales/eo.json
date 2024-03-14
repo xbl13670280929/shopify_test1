@@ -917,6 +917,247 @@
         "out_for_delivery_description": "Ĉi tiu sendo estas liverebla.",
         "preparing_for_shipping_label": "Preparante por sendo"
       }
+    },
+    "payment_methods": {
+      "add_payment_method": {
+        "payment_method_added_confirmation": "Pagmetodo aldonita",
+        "billing_address": {
+          "title": "Faktura adreso",
+          "add_billing_address_button": "Aldonu novan",
+          "add_billing_address_button_accessibility_label": "Aldonu novan fakturadreson",
+          "choose_billing_address_from_list_button": "Elektu el listo",
+          "choose_billing_address_from_list_button_accessibility_label": "Elektu fakturadreson el la listo",
+          "missing_billing_address_error_message": "Bonvolu specifi fakturadreson",
+          "default_checkbox": "Agordu kiel defaŭltan pagmetodon"
+        }
+      }
+    },
+    "payment_method_brands": {
+      "visa": "Vizo",
+      "discover": "Malkovri",
+      "visaelectron": "Vizo Electron",
+      "maestro": "Majstro",
+      "hipercard": "Hiperkarto",
+      "laser": "Lasero",
+      "shoppay": "Butiko Pagu"
+    },
+    "shop_policies": {
+      "legal_notice": "Leĝa avizo",
+      "privacy_policy": "Privateca politiko",
+      "refund_policy": "Politiko pri repago",
+      "shipping_policy": "Politiko de sendo",
+      "subscription_policy": "Abonpolitiko",
+      "terms_of_sale": "Kondiĉoj de vendo",
+      "terms_of_service": "Reguloj de servado"
+    },
+    "ui_components": {
+      "closeNotification": "Fermu",
+      "expandNotification": "Rigardu pli",
+      "closeModal": "Fermu",
+      "submit": "Submeti",
+      "processing": "Prilaborado…",
+      "increase": "Pliigi {{type}}",
+      "decrease": "Malgrandigi {{type}}",
+      "minimumReached": "Minimumo de {{value}} atingita",
+      "maximumReached": "Maksimumo de {{value}} atingita",
+      "january": "januaro",
+      "february": "februaro",
+      "march": "Marto",
+      "april": "Aprilo",
+      "may": "Majo",
+      "june": "junio",
+      "july": "julio",
+      "august": "Aŭgusto",
+      "september": "septembro",
+      "october": "oktobro",
+      "november": "novembro",
+      "december": "decembro",
+      "monday": "lundo",
+      "tuesday": "mardon",
+      "wednesday": "merkredon",
+      "thursday": "ĵaŭdon",
+      "friday": "vendredo",
+      "saturday": "sabato",
+      "sunday": "dimanĉo",
+      "wednesdayAbbreviation": "Ni",
+      "showNextMonth": "Montru venontan monaton, {{month}} {{year}}",
+      "showPreviousMonth": "Montru antaŭan monaton, {{month}} {{year}}",
+      "rangeStart": "Gamokomenco",
+      "inRange": "En gamo",
+      "rangeEnd": "Gamofino",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} objekto havebla",
+        "other": "{{count}} eroj haveblaj"
+      },
+      "removeItem": "Forigi {{label}}",
+      "removeTag": "Forigi etikedon",
+      "month": {
+        "one": "monato",
+        "other": "monatoj"
+      }
+    },
+    "profile_preview_bar": {
+      "customize_button": "Agordu",
+      "hide_bar": "Kaŝi Trinkejon",
+      "navigate_to_admin": "Iru al administranto",
+      "close_preview": "Fermu antaŭrigardon",
+      "previewing": "Vi antaŭrigardas:",
+      "saved_at": "Konservite {{date}} je {{time}}",
+      "viewing": "Vi rigardas:",
+      "not_available": "Profilaj datumoj ne haveblaj",
+      "actions_button": "Agoj"
+    },
+    "settings": {
+      "title": "Agordoj",
+      "loading_accessibility_message": "Ŝarĝante agordan paĝon",
+      "log_out_everywhere": {
+        "title": "Elsaluti ĉie",
+        "description": "Se vi perdis aparaton aŭ havas sekurecajn zorgojn, elsalutu ĉie por certigi la sekurecon de via konto.",
+        "button": "Elsaluti ĉie",
+        "warning_message": "Vi ankaŭ estos elsalutita en ĉi tiu aparato."
+      }
+    }
+  },
+  "sections": {
+    "announcements": {
+      "previous_announcement": "Antaŭa anonco",
+      "next_announcement": "Sekva anonco",
+      "carousel": "Karuselo",
+      "announcement": "Anonco",
+      "announcement_bar": "Anonca stango"
+    },
+    "header": {
+      "announcement": "Anonco"
+    }
+  },
+  "accessibility": {
+    "skip_to_text": "Saltu al enhavo",
+    "skip_to_product_info": "Saltu al produktaj informoj",
+    "close": "Fermu",
+    "vendor": "Vendisto:",
+    "error": "Eraro",
+    "refresh_page": "Elekto de elekto rezultigas plenan paĝan refreŝigon.",
+    "link_messages": {
+      "new_window": "Malfermiĝas en nova fenestro.",
+      "external": "Malfermas eksteran retejon."
+    },
+    "loading": "Ŝarĝante...",
+    "total_reviews": "totalaj recenzoj",
+    "star_reviews_info": "{{ rating_value }} el {{ rating_max }} steloj",
+    "collapsible_content_title": "Faldebla enhavo",
+    "complementary_products": "Komplementaj produktoj"
+  },
+  "blogs": {
+    "article": {
+      "blog": "Blogo",
+      "read_more_title": "Legu pli: {{ title }}",
+      "comments": {
+        "one": "{{ count }} komenton",
+        "other": "{{ count }} komentojn"
+      },
+      "moderated": "Bonvolu noti, ke komentoj devas esti aprobitaj antaŭ ol ili estas publikigitaj.",
+      "comment_form_title": "lasu komenton",
+      "name": "Nomo",
+      "email": "Retpoŝto",
+      "message": "Komento",
+      "post": "Afiŝu komenton",
+      "back_to_blog": "Reen al blogo",
+      "share": "Kunhavigu ĉi tiun artikolon",
+      "success": "Via komento estis afiŝita sukcese! Dankon!",
+      "success_moderated": "Via komento estis afiŝita sukcese. Ni publikigos ĝin post iom da tempo, ĉar nia blogo estas moderigita."
+    }
+  },
+  "onboarding": {
+    "product_title": "Ekzempla produkta titolo",
+    "collection_title": "La nomo de via kolekto"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Aldonu al la korbo",
+      "choose_options": "Elektu opciojn",
+      "choose_product_options": "Elektu opciojn por {{ product_name }}",
+      "description": "Priskribo",
+      "inventory_in_stock": "En stoko",
+      "inventory_in_stock_show_count": "{{ quantity }} en stoko",
+      "inventory_low_stock": "Malalta stoko",
+      "inventory_low_stock_show_count": "Mankas stoko: restas {{ quantity }}",
+      "inventory_out_of_stock": "Elĉerpita",
+      "inventory_out_of_stock_continue_selling": "En stoko",
+      "on_sale": "Vendo",
+      "product_variants": "Produktaj variantoj",
+      "media": {
+        "gallery_viewer": "Galerio-Vidilo",
+        "load_image": "Ŝarĝu bildon {{ index }} en galeria vido",
+        "load_model": "Ŝarĝu 3D-Modelo {{ index }} en galeria vido",
+        "load_video": "Ludu videon {{ index }} en galeria vido",
+        "image_available": "Bildo {{ index }} nun haveblas en galeria vido",
+        "open_media": "Malfermu amaskomunikilaron {{ index }} en modala",
+        "play_model": "Ludu 3D-Vidilon",
+        "play_video": "Ludu videon"
+      },
+      "quantity": {
+        "label": "Kvanto",
+        "input_label": "Kvanto por {{ product }}",
+        "increase": "Pliigi kvanton por {{ product }}",
+        "decrease": "Malpliigu kvanton por {{ product }}",
+        "minimum_of": "Minimumo de {{ quantity }}",
+        "maximum_of": "Maksimumo de {{ quantity }}",
+        "multiples_of": "Pliigoj de {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> en ĉaro",
+        "note": "Vidu regulojn pri kvanto"
+      },
+      "volume_pricing": {
+        "title": "Volumaj Prezoj",
+        "note": "Volumaj prezoj haveblaj",
+        "minimum": "{{ quantity }} +",
+        "price_at_each": "je {{ price }} \/ea"
+      },
+      "pickup_availability": {
+        "view_store_info": "Rigardu vendejajn informojn",
+        "check_other_stores": "Kontrolu haveblecon ĉe aliaj vendejoj",
+        "pick_up_available": "Elekto havebla",
+        "pick_up_available_at_html": "Repreno disponebla ĉe <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Repreno nuntempe ne disponebla ĉe <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "Ne eblis ŝargi la haveblecon de ŝarĝo",
+        "refresh": "Refreŝigi"
+      },
+      "price": {
+        "from_price_html": "De {{ price }}",
+        "regular_price": "Regula prezo",
+        "sale_price": "Venda prezo",
+        "unit_price": "Prezo unuopa"
+      },
+      "share": "Kunhavigu ĉi tiun produkton",
+      "sold_out": "Elvendita",
+      "unavailable": "Nedisponebla",
+      "vendor": "Vendisto",
+      "value_unavailable": "{{ option_value }} - Nedisponebla",
+      "variant_sold_out_or_unavailable": "Variaĵo elĉerpita aŭ nedisponebla",
+      "video_exit_message": "{{ title }} malfermas plenekranan videon en la sama fenestro.",
+      "view_full_details": "Rigardu plenajn detalojn",
+      "xr_button": "Vidu en via spaco",
+      "xr_button_label": "Vidu en via spaco, ŝarĝas objekton en la fenestro de pliigita realeco",
+      "include_taxes": "Imposto inkluzivita.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Sendado<\/a> kalkulita ĉe la kaso."
+    },
+    "modal": {
+      "label": "Media galerio"
+    },
+    "facets": {
+      "apply": "Apliki",
+      "clear": "Klara",
+      "clear_all": "Forigu ĉiujn",
+      "from": "De",
+      "filter_and_sort": "Filtri kaj ordigi",
+      "filter_by_label": "Filtrilo:",
+      "filter_button": "Filtrilo",
+      "filters_selected": {
+        "one": "{{ count }} elektita",
+        "other": "{{ count }} elektita"
+      },
+      "filter_selected_accessibility": "{{ type }} ( {{ count }} filtrilojn elektitaj)",
+      "show_more": "Montru pli",
+      "show_less": "Montru malpli"
     }
   }
 }
