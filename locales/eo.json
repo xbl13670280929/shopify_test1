@@ -810,6 +810,134 @@
           },
           "label": "Neniu livero"
         }
+      },
+      "store_credit_errors": {
+        "generic_error": "Estis problemo kun via butikkredito. Provu denove aŭ reŝargu la paĝon."
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "La donackarto jam estis aplikita al via mendo",
+          "insufficient_funds": "Ĉi tiu donackarto ne restas mono",
+          "expired": "Ĉi tiu donackarto eksvalidiĝis",
+          "not_available": "Ĉi tiu donackarto ne plu disponeblas",
+          "invalid": "Enigu validan donackarton",
+          "currency_mismatch": "Nur donackartoj en %{shop_currency} estas akceptitaj",
+          "generic": "La donackarto ne povus esti aldonita al la kaso",
+          "throttle_limit_exceeded": "Vi superis la maksimuman nombron da provoj. Provu denove poste."
+        }
+      },
+      "payment_errors": {
+        "amount_too_small": "La minimuma pagkvanto devas esti pli alta ol $0.50 USD. Bonvolu provi denove kun pli alta kvanto.",
+        "method_not_available": "La petita pagmetodo ne haveblas.",
+        "available_methods_updated": "Disponeblaj pagmetodoj estis ĝisdatigitaj.",
+        "generic_error": "Estis problemo pri procesado de via pago. Provu denove aŭ uzu alian pagmetodon.",
+        "rejected_transaction": "Via pago estis malakceptita. Provu denove aŭ uzu alian pagmetodon.",
+        "credit_card_processing": "Via pago ne povas esti procesita pro teknikaj kialoj. Provu denove post kelkaj minutoj aŭ uzu alian pagmetodon.",
+        "checkout_amount_changed": "Via pago ne povis esti procesita ĉar la kvanto pagita ĉe la pago ŝanĝiĝis. Bonvolu kontroli vian mendon kaj provi denove.",
+        "deferred_payment_not_allowed": "Prokrastaj pagoj ne estas permesitaj. Bonvolu kontroli vian mendon kaj provi denove.",
+        "deferred_payment_required": "Ĉi tiu ordo postulas prokrastan pagon. Bonvolu kontroli vian mendon kaj provi denove.",
+        "deferred_amount_changed": "Via pago ne povis esti procesita ĉar la prokrastita pagokvanto ŝanĝiĝis. Bonvolu kontroli vian mendon kaj provi denove.",
+        "deferred_date_changed": "Via pago ne povis esti procesita ĉar la prokrastita pagodato ŝanĝiĝis. Bonvolu kontroli vian mendon kaj provi denove.",
+        "order_total_changed": "Via pago ne povis esti procesita ĉar via mendotuto ŝanĝiĝis. Kontrolu vian mendon totalon kaj provu denove.",
+        "payment_processing": "Via pago ne povas esti procesita pro teknikaj kialoj. Provu denove aŭ uzu alian pagmetodon.",
+        "payment_processing_no_retry": "Via pago ne povas esti procesita pro teknikaj kialoj. Bonvolu provi alian pagmetodon.",
+        "paypal_zero_amount": "Vi ne povas uzi PayPal por %{amount} mendoj. Konfirmu, ke via mendo estas ĝusta kaj kontrolu sen PayPal.",
+        "paypal_invalid_token": "PayPal ne estis havebla. Provu denove aŭ uzu alian kontrolopcion.",
+        "pay_later_failed": "Okazis eraro prilaborante vian pagon per Pay poste. Elektu alian pagmetodon kaj provu denove.",
+        "three_d_secure_failed": "Via pago ne povis esti kontrolita. Provu denove aŭ uzu alian pagmetodon.",
+        "three_d_secure_failed_duplicate": "La 3D Sekura aŭtentikigo de la kreditkarto malsukcesis ĉar alia jam okazas.",
+        "three_d_secure_throttled": "Tro da provoj; bonvolu atendi antaŭ provi denove",
+        "subscription_agreement_blank": "Por aĉeti abonon, viaj pagodetaloj devas esti konservitaj. Por daŭrigi, konfirmu, ke vi konsentas aŭ forigas abonaĵojn de via mendo.",
+        "insufficient_funds": "Via pago estis malakceptita pro nesufiĉaj financoj. Provu denove aŭ uzu alian pagmetodon.",
+        "multiple_deferred_payment_not_allowed": "Nur unu prokrastita pago permesita po peto. Bonvolu kontroli vian peton kaj provi denove.",
+        "shipping_must_match_billing": "Faktura adreso devas kongrui kun senda adreso. Bonvolu uzi alian pagmetodon.",
+        "decision_rule_block": "Estis problemo pri procesado de via pago. Bonvolu kontakti la posedanton de la vendejo.",
+        "pick_up_card": "Via karto estis malakceptita. Provu denove aŭ uzu alian pagmetodon.",
+        "cannot_verify": "Viaj pagodetaloj ne povis esti kontrolitaj. Kontrolu viajn kartajn detalojn kaj provu denove.",
+        "invalid_number": "Enigu validan kartnumeron",
+        "invalid_expiry_date": "Enigu validan limdaton",
+        "invalid_cvc": "Enigu validan sekurecan kodon",
+        "expired_card": "Via karto eksvalidiĝis. Uzu malsaman pagmetodon.",
+        "card_declined": "Via karto estis malakceptita. Provu denove aŭ uzu alian pagmetodon.",
+        "processing_error": "Estis problemo pri procesado de via pago. Provu denove aŭ uzu alian pagmetodon.",
+        "processing_error_checkout_as_guest": "Estis problemo pri procesado de via pago. Provu denove per alia pagmetodo aŭ {{checkout_as_guest_link}} .",
+        "selected_payment_method": "Estis problemo kun via elektita pagmetodo kaj vi ne estis ŝargita. Provu denove aŭ uzu alian pagmetodon.",
+        "payment_method_billing_address": "Okazis problemo kun la fakturadreso de via elektita pagmetodo kaj vi ne estis ŝargita. Kontrolu la adreson kaj provu denove aŭ uzu alian pagmetodon.",
+        "call_issuer": "Via karto estis malakceptita. Uzu alian pagmetodon aŭ kontaktu vian bankon por pliaj informoj.",
+        "test_mode_live_card": "Ĉi tiu vendejo ne povas akcepti verajn mendojn aŭ verajn pagojn.",
+        "transient_error": "Estis problemo pri procesado de via pago. Provu refreŝigi ĉi tiun paĝon aŭ kontrolu vian interretan konekton.",
+        "missing_shipping_address": "Via pago ne povis esti procesita ĉar via senda adreso mankas. Aldonu sendan adreson kaj provu denove.",
+        "invalid_shipping_address": "Via pago ne povis esti procesita ĉar ni ne trovis vian sendandreson. Kontrolu vian sendadreson kaj provu denove.",
+        "successful_offsite_with_gift_card_error": "Okazis problemo pri via pago de via donackarto. Provu denove aŭ uzu alian pagmetodon.",
+        "development_store_order_limit_reached": "Vi atingis la limon por evoluaj vendejmendoj kun ĉi tiu pagprocesoro. Por fari alian mendon, vi devos uzi testan pagpordon. Lernu pli pri %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Por fari testan mendon, vi devos uzi testan pagan enirejon. Lernu pli pri %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "testado de mendoj en evolubutikoj"
+      },
+      "shipping_errors": {
+        "shipping_method": "La sendaj elektoj ŝanĝiĝis por via mendo. Revizu vian elekton kaj provu denove.",
+        "shipping_method_not_available": "Via ĉaro estas ĝisdatigita kaj la aĵoj kiujn vi aldonis ne povas esti senditaj al via adreso. Forigu la erojn por kompletigi vian mendon.",
+        "shipping_method_not_available_generic": {
+          "one": "Via mendo ne povas esti sendita al la elektita adreso. Revizu vian adreson por certigi, ke ĝi estas ĝusta kaj provu denove, aŭ elektu alian adreson.",
+          "other": "Kelkaj eroj en via ĉaro ne povas esti senditaj al la adreso kiun vi enigis. Revizu vian adreson por certigi, ke ĝi estas ĝusta kaj provu denove, aŭ elektu alian adreson."
+        },
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Eroj en la ĉaro ne plenumas postulojn pri prezo aŭ pezo por kvalifiki por sendo. Ĝisdatigu vian ĉaron kaj provu denove.",
+        "shipping_method_not_available_updated": {
+          "one": "La aĵo kiun vi aldonis ne sendas al via loko. Forigu ĝin por kontroli, aŭ kontaktu la vendejon.",
+          "other": "Unu aŭ pluraj aĵoj kiujn vi aldonis ne sendas al via loko. Forigu ilin por kontroli, aŭ kontaktu la vendejon."
+        },
+        "payment_method_not_supported": "Vi ne povas uzi ĉi tiun pagmetodon por %{country}. Bonvolu uzi alian pagmetodon por sendi al ĉi tiu lando.",
+        "empty_state": "Enigu vian sendadreson por vidi disponeblajn sendajn metodojn.",
+        "title": "Sendado ne havebla"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Ekspresa kaso",
+        "or": "AŬ",
+        "show_more_options": "Montru pliajn eblojn",
+        "hide_more_options": "Kaŝi pliajn eblojn"
+      },
+      "post_purchase": {
+        "page_title": "Post-aĉeto",
+        "title": "Post-aĉeto",
+        "escape_confirmation": "Vi pagis vian mendon.",
+        "escape_action": "Vidi mendokonfirmon ›",
+        "components": {
+          "close": "Fermu",
+          "expand": "Rigardu pli",
+          "processing": "Prilaborado...",
+          "submit": "Submeti"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Alidirektante…",
+        "redirecting_title": "Alidirektante…",
+        "redirecting_notice": "Atendu dum ni alidirektas vin.",
+        "complete_your_purchase_title": "Kompletigu vian aĉeton",
+        "continue_to_payment_gateway_notice": "Daŭrigu pagon por aldoni viajn pagajn informojn.",
+        "continue_to_payment_gateway_button_label": "Daŭrigu pagon",
+        "complete_your_purchase_title_error": "Korektu viajn pagajn informojn",
+        "continue_to_payment_gateway_notice_error": "Viaj pag-informoj ne povis esti kontrolitaj.",
+        "continue_to_payment_gateway_button_label_error": "Ĝisdatigu pagajn informojn",
+        "page_title": "Pretiga ordo",
+        "title": "Pretiga ordo",
+        "your_order_has_been_received_title": "Dankon pro via mendo",
+        "you_will_receive_confirmation": "Ni ricevas multajn mendojn nun. Vi devus ricevi konfirmon per retpoŝto aŭ teksto baldaŭ. Se vi ne ricevas ĝin en la sekva horo, informu nin.",
+        "you_will_not_be_charged": "Vi ankoraŭ ne estos ŝargita",
+        "wait": {
+          "short": "Via mendo estas procesita.",
+          "medium": {
+            "one": "Via mendo estas procesita. Laŭtaksa atendotempo estas %{count} minuto.",
+            "other": "Via mendo estas procesita. Laŭtaksa atendotempo estas %{count} minutoj."
+          },
+          "long": "Vi ricevos retpoŝton tuj kiam via mendo estos procesita. Nuntempe estas granda kvanto da mendoj.",
+          "no_auto_refresh_html": "Se vi ne estas aŭtomate alidirektita, %{link}.",
+          "refresh_this_page": "refreŝigu ĉi tiun paĝon"
+        },
+        "action_required": "Ago bezonata"
+      },
+      "failed_payment": {
+        "page_title": "Pago ne povis esti procesita",
+        "title": "Pago ne povis esti procesita",
+        "payment_not_processed_title": "Via pago ne povis esti procesita"
       }
     },
     "pagination": {
