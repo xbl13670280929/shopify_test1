@@ -359,7 +359,8 @@
         "card_fields": {
           "errors": {
             "required": {
-              "issue_number": "Enigu validan numeron"
+              "issue_number": "Enigu validan numeron",
+              "issue_date": "Enigu validan eldondaton"
             },
             "invalid": {
               "verification_value": "Enigu validan CVV aŭ sekurecan kodon"
@@ -471,7 +472,120 @@
         "waiting_on_taxes_notice": "Kalkulado de impostoj",
         "payment_method": "Pagmaniero",
         "expired_payment_method": "Elektita pagmetodo eksvalidiĝis",
-        "proposed_gateway_unavailable": "La proponita pagpordo estas neatingebla"
+        "proposed_gateway_unavailable": "La proponita pagpordo estas neatingebla",
+        "saved_by_payment_method": "Konservite de %{payment_method}",
+        "pay_with_payment_method": "Pagu per %{payment_method}",
+        "different_credit_card_label": "Uzu alian kreditkarton",
+        "same_billing_address_label": "Sama kiel senda adreso",
+        "different_billing_address_label": "Uzu alian fakturadreson",
+        "billing_address_associated_with_mandate": "Uzu adreson asociitan kun pagmetodo",
+        "billing_address_associated_with_mandate_info": "Se vi volas ŝanĝi vian fakturadreson, bonvolu forigi kaj reenigi viajn kreditkartajn detalojn",
+        "free_order_notice_html": "Via mendo estas <strong>senpaga<\/strong> . Neniu pago estas bezonata.",
+        "express_checkout_free_order": "Vi ne pagos por senpaga mendo",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Via mendo estas kovrita de via donackarto.",
+          "other": "Via mendo estas kovrita de viaj donackartoj."
+        },
+        "offsite_gateway_redirect_hint": "Post klako \"%{button_label}\", vi estos redirektita al %{gateway_label} por fini vian aĉeton sekure.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} entute %{total_shop_price}",
+        "receiver_payment_experience_hint": "Post fari vian mendon, vi ricevos pagodetalojn. Faru la pagon ĉe Multibanco aŭ interrete ene de %{due_days} tagoj.",
+        "billing_address_title": "Faktura adreso",
+        "billing_address_description": "Elektu la adreson, kiu kongruas kun via karto aŭ pagmetodo.",
+        "billing_address_description_no_shipping_address": "Enigu la adreson, kiu kongruas kun via karto aŭ pagmaniero.",
+        "no_js_credit_card_fields_redirect_hint": "Vi estos redirektita por aldoni viajn pagajn informojn.",
+        "card_fields_container_prefix": "Kampa ujo por:",
+        "card_fields_unavailable_html": {
+          "one": "Pagoj pri kredit- kaj debetkarto ne disponeblas nun. <br><a href=\"%{current_url}\">Refreŝigu ĉi tiun paĝon<\/a> aŭ provu denove poste.",
+          "other": "Pagoj pri kredit- kaj debetkarto ne disponeblas nun.<br> <a href=\"%{current_url}\">Refreŝigu ĉi tiun paĝon<\/a> aŭ provu alian pagmetodon."
+        },
+        "card_fields_processing_error": "Estis problemo pri procesado de la pago. Provu refreŝigi ĉi tiun paĝon aŭ kontrolu vian interretan konekton.",
+        "technical_error": "Pagoj ne povas esti procesitaj nun pro teknika problemo. Provu denove post kelkaj minutoj.",
+        "no_method_error": "Ĉi tiu vendejo ne povas akcepti pagojn nun.",
+        "not_configured_error": "Ĉi tiu vendejo ne povas akcepti pagojn nun.",
+        "missing_credit_card_error": "Enigu viajn kartajn detalojn por plenumi la pagon",
+        "billing_address_not_supported_for_payment_method_error": "Ĉi tiu pagmetodo ne disponeblas por via faktura adreso kaj valuto. Bonvolu provi alian pagmetodon.",
+        "generic_incorrect_card_info": "Viaj pagodetaloj ne povis esti kontrolitaj. Kontrolu viajn karto-detalojn kaj provu denove.",
+        "sofort_label": "Sofort banka transdono",
+        "shop_pay_installments_label": "Butiko Paga Pagoj",
+        "paypal_modal": {
+          "order_contains_subscriptions": "Abono",
+          "order_contains_fixed_selling_plans": "Totalo eble ne inkluzivas impostojn, sendon, prokrastitajn kostojn kaj iujn rabatojn. Daŭre pagu por la kvanto pagenda hodiaŭ."
+        },
+        "klarna_pay_later_label": "Pagu poste kun Klarna",
+        "klarna_pay_now_label": "Pagu nun per Klarna",
+        "klarna_slice_it_label": "Financo kun Klarna",
+        "ideal_label": "ideala",
+        "bank_picker_label": "Banko",
+        "afterpay_label": "Postpago",
+        "cashapppay_label": "Mona App Pay",
+        "purchase_options_card_update_agreement_label_html": "Ĝisdatigante vian pagmetodon, vi rajtigas pagojn por ajna ripetita aŭ prokrastita aĉeto laŭ <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">la politiko pri nuligo<\/a> de ĉi tiu vendejo.",
+        "subscription_card_update_agreement_label": "Ŝanĝi la pagmetodon ĝisdatigos vian abonon kaj estontajn ripetajn pagojn.",
+        "subscription_agreement_label": "Unu aŭ pluraj eroj en via ĉaro estas prokrastita aŭ abonaĉeto. Daŭrigante vian pagon, vi konsentas, ke via pagmetodo aŭtomate estos ŝargita laŭ la prezo kaj ofteco listigitaj sur ĉi tiu paĝo ĝis ĝi finiĝos aŭ vi nuligos. Ĉiuj nuligoj estas submetitaj al %{cancelled}.",
+        "subscription_agreement_cancelled": "nuligopolitiko",
+        "subscription_heading": "Aboninterkonsento",
+        "subscription_agreement_label_html": "Mi komprenas, ke mi konsentas pri abono. Ĝi renovigos je la prezo kaj ofteco listigitaj ĝis ĝi finiĝos aŭ estos\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">nuligita<\/a> .\n",
+        "purchase_options_agreement_label": "Unu aŭ pluraj eroj en via ĉaro estas prokrastita aŭ revenanta aĉeto. Daŭrigante vian pagon, vi konsentas, ke via pagmetodo aŭtomate estos ŝargita laŭ la prezo kaj ofteco listigitaj sur ĉi tiu paĝo ĝis ĝi finiĝos aŭ vi nuligos. Ĉiuj nuligoj estas submetitaj al %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "Mi komprenas, ke unu aŭ pluraj eroj en mia ĉaro estas prokrastita aŭ revenanta aĉeto. Daŭrigante, mi konsentas pri la\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">nuligopolitiko<\/a>\n kaj rajtigas vin ŝargi mian pagmetodon je la prezoj, ofteco kaj datoj listigitaj sur ĉi tiu paĝo ĝis mia\n mendo estas plenumita aŭ mi nuligas, se permesite.\n",
+        "purchase_options_agreement_label_wallets": "Daŭrigante vian pagon, vi konsentas pri la estontaj kostoj listigitaj sur ĉi tiu paĝo kaj la politiko pri nuligo.",
+        "change_currency_section_description": "Elektu valutan opcion",
+        "no_real_orders_dev_store": "Ĉi tiu vendejo ne povas akcepti verajn mendojn aŭ verajn pagojn.",
+        "waiting_on_payment_methods": "Akiro de disponeblaj pagmetodoj...",
+        "apple_pay_payment_error": "Via pago ne povis esti finita. Provu denove aŭ uzu alian pagmetodon.",
+        "taxes_not_included": "Impostoj ne inkluzivitaj",
+        "no_taxes_banner_content": "Impostoj ne estos ŝargitaj sur ĉi tiu ordo. Post kiam vi kolektis pagon, impostoj ne plu povas esti aldonitaj.",
+        "paypal": {
+          "connect": "Klaku por konekti vian PayPal-konton"
+        },
+        "apple": {
+          "connect": "Alklaku por konekti vian konton de Apple Pay",
+          "not_available": "Apple Pay ne disponeblas en ĉi tiu retumilo. Por konekti vian konton de Apple Pay, vi devos uzi Safari sur Apple-aparato."
+        },
+        "google": {
+          "connect": "Klaku por konekti kun via konto de Google Pay",
+          "error_authorizing": "Eraro rajtigante pagon"
+        },
+        "account_connected": "Konto konektita.",
+        "mor_disclaimer_html": "Klakante malsupre kaj kompletigante vian mendon, vi konsentas aĉeti vian(j)n objekto(j)n de Global-e kiel registrita komercisto\n por ĉi tiu transakcio, laŭ <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">la Kondiĉoj kaj Kondiĉoj<\/a> de Global-e\n kaj <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privateca Politiko<\/a> . Global-e estas internacia\n provizanto de plenumado al %{shop_name}\n",
+        "pending_payment": {
+          "due_notice": "Via pago de %{amount_due} estas pagenda je %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Faru vian pagon ĉe Multibanco aŭ interrete uzante la detalojn sube. Por demandoj aŭ por ĝisdatigi pagodetalojn, %{contact_us}.",
+            "entity": "Ento",
+            "reference": "Referenco",
+            "amount": "Kvanto",
+            "find_nearest_atm": "Trovu Plej Proksiman ATM"
+          }
+        },
+        "update_payment_method": "Ĝisdatigu pagmetodon",
+        "order_covered_by_store_credit_notice": "Via mendo estas kovrita de via butikkredito.",
+        "order_covered_by_redeemables_notice": "Via mendo estas kovrita.",
+        "store_credit": {
+          "label": "Stoka kredito",
+          "apply_label": "Apliki butikkrediton",
+          "add_label": "Aldonu butikkrediton",
+          "manage_label": "Administri butikkrediton",
+          "buying_gift_card": "Vi ne povas uzi butikkrediton por aĉeti donackarton",
+          "no_fixed_selling_plans": "Vi ne povas uzi butikkrediton kun prokrastitaj aĉetopcioj"
+        },
+        "clear": "Klara",
+        "billing_must_match_shipping_notice": "La faktura adreso de via pagmetodo devas kongrui kun la senda adreso.",
+        "same_billing_address_checkbox_label": "Uzu sendan adreson kiel fakturadreson",
+        "location_billing_address_label": "Loka faktura adreso",
+        "fact_billing_address_label": "Faktura adreso",
+        "location_shipping_address_label": "Loka senda adreso",
+        "use_order_billing_address_label": "Uzu mendan fakturadreson",
+        "use_location_billing_address_label": "Uzu lokan fakturadreson",
+        "use_location_shipping_address_label": "Uzu lokan sendadreson",
+        "no_working_method_error": "Ĉi tiu vendejo ne povas akcepti pagojn nun. Refreŝigu ĉi tiun paĝon aŭ revenu poste.",
+        "brand_not_available": "Ĉi tiu vendejo ne akceptas {{brand}} . Bonvolu uzi alian karton por pagi.",
+        "shipping_rate_updated": "Disponeblaj sendaj metodoj estis ĝisdatigitaj. Konfirmu vian elekton antaŭ ol kontroli.",
+        "billing_address_invalid_phone": "Ĝisdatigu la telefonnumeron en via fakturadreso por ke {{label}} {{last_digits}} daŭrigu.",
+        "billing_address_invalid_phone_no_card": "Ĝisdatigu la telefonnumeron en via fakturadreso por daŭrigi.",
+        "preview_not_available": {
+          "title": "Antaŭrigardo ne havebla",
+          "content": "Ne maltrankviliĝu, ĉi tiu rapidpago funkcias por viaj klientoj.",
+          "button": "Bone"
+        }
       },
       "billing": {
         "billing_address_title": "Bill al",
