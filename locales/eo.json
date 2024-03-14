@@ -1495,7 +1495,96 @@
       "announcement_bar": "Anonca stango"
     },
     "header": {
-      "announcement": "Anonco"
+      "announcement": "Anonco",
+      "menu": "Menuo",
+      "cart_count": {
+        "one": "{{ count }} ero",
+        "other": "{{ count }} erojn"
+      }
+    },
+    "cart": {
+      "title": "Via ĉaro",
+      "caption": "Ĉaretoj",
+      "remove_title": "Forigi {{ title }}",
+      "estimated_total": "Laŭtaksa totalo",
+      "new_estimated_total": "Nova laŭtaksa totalo",
+      "note": "Mendu specialajn instrukciojn",
+      "checkout": "Kontrolu",
+      "empty": "Via ĉaro estas malplena",
+      "cart_error": "Okazis eraro dum la ĝisdatigo de via ĉaro. Bonvolu reprovi.",
+      "cart_quantity_error_html": "Vi povas nur aldoni {{ quantity }} de ĉi tiu aĵo al via ĉaro.",
+      "taxes_and_shipping_policy_at_checkout_html": "Impostoj, Rabatoj kaj <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">sendo<\/a> kalkulitaj ĉe la kaso",
+      "taxes_included_but_shipping_at_checkout": "Imposto inkluzivita kaj sendado kaj rabatoj kalkulitaj ĉe la kaso",
+      "taxes_included_and_shipping_policy_html": "Imposto inkluzivita. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Sendado<\/a> kaj rabatoj kalkulitaj ĉe la kaso.",
+      "taxes_and_shipping_at_checkout": "Impostoj, rabatoj kaj sendo kalkulitaj ĉe la kaso",
+      "headings": {
+        "product": "Produkto",
+        "price": "Prezo",
+        "total": "Entute",
+        "quantity": "Kvanto",
+        "image": "Produkta bildo"
+      },
+      "update": "Ĝisdatigo",
+      "login": {
+        "title": "Havas konton?",
+        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link underlined-link\">Ensalutu<\/a> por kontroli pli rapide."
+      }
+    },
+    "footer": {
+      "payment": "Pagmetodoj"
+    },
+    "featured_blog": {
+      "view_all": "Rigardu ĉiujn",
+      "onboarding_title": "Bloga afiŝo",
+      "onboarding_content": "Donu al viaj klientoj resumon de via bloga afiŝo"
+    },
+    "featured_collection": {
+      "view_all": "Rigardu ĉiujn",
+      "view_all_label": "Rigardu ĉiujn produktojn en la kolekto {{ collection_name }}"
+    },
+    "collection_list": {
+      "view_all": "Rigardu ĉiujn"
+    },
+    "collection_template": {
+      "empty": "Neniuj produktoj trovitaj",
+      "title": "Kolekto",
+      "use_fewer_filters_html": "Uzu malpli da filtriloj aŭ <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">forigu ĉiujn<\/a>"
+    },
+    "video": {
+      "load_video": "Ŝargi videon: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Ŝargi diapozitivon",
+      "previous_slideshow": "Antaŭa glitado",
+      "next_slideshow": "Sekva diapozitivo",
+      "pause_slideshow": "Paŭzi bildaron",
+      "play_slideshow": "Ludu bildaron",
+      "carousel": "Karuselo",
+      "slide": "Gliti"
+    },
+    "page": {
+      "title": "Paĝtitolo"
+    },
+    "quick_order_list": {
+      "product_total": "Produkta subtotalo",
+      "view_cart": "Rigardu ĉaron",
+      "each": "{{ money }} \/ea",
+      "product": "Produkto",
+      "variant": "Variaĵo",
+      "variant_total": "Varianta tuta",
+      "items_added": {
+        "one": "{{ quantity }} ero aldonita",
+        "other": "{{ quantity }} eroj aldonitaj"
+      },
+      "items_removed": {
+        "one": "{{ quantity }} ero forigita",
+        "other": "{{ quantity }} eroj forigitaj"
+      },
+      "product_variants": "Produktaj variantoj",
+      "total_items": "Totalaj eroj",
+      "remove_all_items_confirmation": "Ĉu forigi ĉiujn {{ quantity }} aĵojn el via ĉaro?",
+      "remove_all": "Forigu ĉiujn",
+      "cancel": "Nuligi"
     }
   },
   "accessibility": {
@@ -1627,5 +1716,62 @@
       "show_more": "Montru pli",
       "show_less": "Montru malpli"
     }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "Eniru vendejon uzante pasvorton:",
+      "login_password_button": "Enigu uzante pasvorton",
+      "login_form_password_label": "Pasvorto",
+      "login_form_password_placeholder": "Via pasvorto",
+      "login_form_error": "Erara pasvorto!",
+      "login_form_submit": "Eniru",
+      "admin_link_html": "Ĉu vi estas la posedanto de la vendejo? <a href=\"\/admin\" class=\"link underlined-link\">Ensalutu ĉi tie<\/a>",
+      "powered_by_shopify_html": "Ĉi tiu butiko estos funkciigita de {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Kunhavigu en Facebook",
+        "share_on_twitter": "Tweet sur Twitter",
+        "share_on_pinterest": "Alpinglu sur Pinterest"
+      },
+      "links": {
+        "facebook": "Fejsbuko",
+        "youtube": "Jutubo",
+        "tiktok": "Tik Tok"
+      }
+    },
+    "continue_shopping": "Daŭrigu butikumado",
+    "pagination": {
+      "label": "Paĝigo",
+      "page": "Paĝo {{ number }}",
+      "next": "Sekva paĝo",
+      "previous": "Antaŭa paĝo"
+    },
+    "search": {
+      "search": "Serĉu",
+      "reset": "Klara serĉa termino"
+    },
+    "cart": {
+      "view": "Rigardu ĉaron ( {{ count }} )",
+      "view_empty_cart": "Rigardu ĉaron",
+      "item_added": "Ero aldonita al via ĉaro"
+    },
+    "share": {
+      "close": "Fermi kundividi",
+      "copy_to_clipboard": "Kopiu ligilon",
+      "share_url": "Ligo",
+      "success_message": "Ligo kopiita al tondujo"
+    },
+    "slider": {
+      "of": "de",
+      "next_slide": "Glitu dekstren",
+      "previous_slide": "Glitu maldekstren",
+      "name": "Glitilo"
+    }
+  },
+  "newsletter": {
+    "label": "Retpoŝto",
+    "success": "Dankon pro abono",
+    "button_label": "Abonu"
   }
 }
