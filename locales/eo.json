@@ -585,7 +585,63 @@
           "title": "Antaŭrigardo ne havebla",
           "content": "Ne maltrankviliĝu, ĉi tiu rapidpago funkcias por viaj klientoj.",
           "button": "Bone"
-        }
+        },
+        "amazon_payments_login_hint": "Oni petos vin ensaluti kun Amazon.",
+        "amazon_payments_logout": "Elsalutu de Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "La elektita pagmetodo ne povis esti uzata. Elektu alian metodon aŭ kontaktu vian bankon aŭ karton.",
+        "amazon_payments_abandoned_mfa_challenge": "Via pago ne povis esti finita. Provu alian pagmetodon aŭ kontaktu vian bankon aŭ karton.",
+        "amazon_payments_could_not_enqueue_authorize": "Estis problemo pri procesado de via pago. Provu denove aŭ uzu alian pagmetodon.",
+        "title": "Pago",
+        "amount_left_to_pay_label": "Pago ŝuldata:",
+        "discount_button_action_label": "Apliki Rabatkodon",
+        "gift_card_code_label": "Kodo de donackarto",
+        "apply_gift_card_button_label": "Apliki",
+        "gift_card_balance_label": "Bilanco:",
+        "supported_card_brands_more_label": "kaj pli…",
+        "detected_card_brand": "Detektita kartmarko: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Konservu vian kreditkarton",
+        "credit_card_vaulting_sign_in_banner_info": "Ensalutu aŭ kreu konton por konservi vian kreditkarton por estontaj aĉetoj.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Ensaluti",
+        "ftd_vault_credit_card_label": "Konservu ĉi tiun kreditkarton al mia konto por pli rapida pago",
+        "card_number_label": "Kartonumero",
+        "card_number_placeholder": "Kartonumero",
+        "card_pay_with": "Pagu per:",
+        "card_security_notice": "Ĉiuj transakcioj estas sekuraj kaj ĉifritaj.",
+        "card_security_vault_notice": "Ni bezonas viajn detalojn por estontaj pagoj. Ĉiuj transakcioj estas sekuraj kaj ĉifritaj.",
+        "card_information_notice": "Ĉiuj transakcioj estas sekuraj kaj ĉifritaj. Kreditkartaj informoj neniam estas konservitaj.",
+        "name_on_card_label": "Nomo sur karto",
+        "name_on_card_placeholder": "Nomo sur karto",
+        "card_nickname_label": "Moknomo (laŭvola)",
+        "card_expired": "Eksvalidiĝis",
+        "card_expiry_label": "Limdato (MM \/ YY)",
+        "card_expiry_placeholder": "Limdato (MM \/ YY)",
+        "credit_card_start_month": "Komencu monaton",
+        "credit_card_start_year": "Komencu jaron",
+        "delete_customer_mandate_modal_title": "Ĉu forigi ĉi tiun pagokarton?",
+        "delete_customer_mandate_modal_body": "Se vi forigas ĉi tiun karton, vi devos aldoni ĝin denove antaŭ ol uzi ĝin por pagoj.",
+        "delete_customer_mandate_modal_confirm": "Forigi karton",
+        "delete_customer_mandate_modal_cancel": "Nuligi",
+        "card_verification_value_label": "Sekureca kodo",
+        "card_verification_value_placeholder": "Sekureca kodo",
+        "card_verification_confirm": "Por kontrolaj celoj, enigu la sekurecan kodon de via karto.",
+        "card_expiry_date_explanation": "Karto limdato en formato: monato, monato, jaro, jaro",
+        "card_expiration_month_label": "Eksvalidiga monato",
+        "card_expiration_year_label": "Eksvalida jaro",
+        "card_verification_value_explanation": "3-cifera sekureca kodo kutime troviĝas sur la dorso de via karto. American Express-kartoj havas 4-ciferan kodon situantan ĉe la fronto.",
+        "card_verification_value_explanation_amex": "4-cifera sekureca kodo sur la fronto de via karto",
+        "card_verification_value_explanation_other": "3-cifera sekureca kodo sur la dorso de via karto",
+        "card_start_label": "Eldondato (MM \/ YY)",
+        "card_start_placeholder": "Eldondato (MM \/ YY)",
+        "card_issue_number_label": "Eldona numero",
+        "card_issue_number_placeholder": "Eldona numero",
+        "card_change_label": "Ŝanĝi",
+        "card_update_label": "Ĝisdatigu karton",
+        "ends_with_label": "finiĝante per %{last_digits}",
+        "masked_digits_label": "•••• %{lastaj_ciferoj}",
+        "payment_method_saved": "Pagmetodo konservita",
+        "card_vaulted_company_location": "Karto konservita por ĉi tiu loko",
+        "expiry_long": "(Eksvalidiĝas %{month}\/%{year})",
+        "expiry_short": "(Valo %{month}\/%{year})"
       },
       "billing": {
         "billing_address_title": "Bill al",
@@ -1425,6 +1481,70 @@
       },
       "pickup_point": {
         "location_is_currently_closed": "Fermita"
+      },
+      "shipping": {
+        "subscription_delivery_description": {
+          "first_n_order_free": {
+            "one": "Unua mendo senpage",
+            "other": "Unuaj %{count} mendoj senpage"
+          },
+          "free_for_first_n_order": {
+            "one": "Por unua ordo",
+            "other": "Por unuaj %{count} mendoj"
+          }
+        },
+        "one_time_purchase_shipping": "Unufoja sendado",
+        "address2_add_label": "Aldonu apartamenton, suiteon, ktp.",
+        "duties_and_taxes_title": "Devoj kaj impostoj",
+        "shipping_information_required_notice": "Sendaj informoj estas bezonataj. {{link}} .",
+        "shipping_information_redirect_link": "Enigu viajn informojn ĉi tie",
+        "loading_progressive_rates": "Serĉante pliajn tarifojn...",
+        "no_other_methods_available": "Neniuj aliaj metodoj haveblaj",
+        "duties_and_taxes_options": {
+          "ddu_title": "Pagu sur livero",
+          "ddu_caption": "Pliaj kotizoj povas apliki",
+          "ddp_title": "Pagu nun",
+          "ddp_caption": "Neniuj kromaj kotizoj por livero"
+        },
+        "shipping_method_combinations": {
+          "with_separator": "%{rest}, %{nuna},",
+          "combination": "%{rest} kaj %{current}"
+        },
+        "shipping_used_as_billing_notice": "Ĉi tio ankaŭ estos uzata kiel via faktura adreso por ĉi tiu mendo.",
+        "address_update": "Ĝisdatigu adreson",
+        "enter_address_manually_label": "Enigu adreson permane",
+        "shipping_address_title": "Ekspedi al",
+        "add_address": "Uzu alian adreson",
+        "add_delivery_instructions": "Aldonu liverajn instrukciojn",
+        "edit": "Redakti",
+        "delete": "Forigi",
+        "address_more": "Pli da agoj por ĉi tiu adreso",
+        "address_edit": "Redaktu adreson",
+        "address_delete": "Forigi adreson",
+        "address_confirm": "Ĉu vi certas, ke vi volas forigi ĉi tiun adreson de via konto?",
+        "address_form": {
+          "add_address": "Aldonu adreson",
+          "save": "Savi",
+          "cancel": "Nuligi",
+          "generic_error": "Estis problemo dum konservado de via adreso. Bonvolu reprovi.",
+          "one_time_address_subtitle": "Uzu unufojan adreson por ĉi tiu mendo"
+        },
+        "different_shipping_method_summary": "Enigu alian sendadreson por vidi disponeblajn sendajn metodojn",
+        "invalid_shipping_method_summary": "Enigu validan sendadreson por vidi disponeblajn sendajn metodojn",
+        "method_summary": {
+          "incomplete_address_entered": "Enigu kompletan sendan adreson por vidi disponeblajn sendajn metodojn",
+          "incomplete_address_selected": "Elektu kompletan sendadreson por vidi disponeblajn sendajn metodojn"
+        },
+        "local_pickup": {
+          "search_address": "Serĉu adreson",
+          "rollup_title": "Kapta loko"
+        },
+        "missing_shipping_address": "Mankas senda adreso"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Kromaj Informoj"
+        }
       }
     },
     "pagination": {
