@@ -482,6 +482,440 @@
         "handle_phone_invalid": "Enigu validan telefonnumeron",
         "handle_email_invalid": "Enigu validan retpoŝton",
         "email_invalid": "Enigu validan retpoŝton"
+      },
+      "thank_you": {
+        "customer_validation_error": "Enigu validan retpoŝton aŭ mendan numeron.",
+        "customer_validation_error_phone": "Enigu validan telefonon aŭ mendan numeron.",
+        "login": "Ensaluti",
+        "unfulfilled_items_title": "Preparante por sendo",
+        "unfulfilled_items_description": "Ni nuntempe preparas ĉi tiujn erojn por sendo.",
+        "marker": {
+          "current": "Nuna sendoloko",
+          "shipping": "Sendo adreso"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Nuna sendoloko",
+          "shipping": "Kapta loko"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Eroj en ĉi tiu sendo",
+          "unfulfilled_table_title": "Eroj prepariĝantaj por sendo",
+          "product_image_label": "Produkta bildo",
+          "description_label": "Priskribo",
+          "quantity_label": "Kvanto"
+        },
+        "order_updates_description_missing": "Vi ne ricevas ekspedajn ĝisdatigojn.",
+        "order_updates_subscribe_to_email_notifications": "Ricevu sendojn ĝisdatigojn per retpoŝto",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Ricevu ekspedajn ĝisdatigojn per retpoŝto aŭ teksto",
+        "order_updates_subscribe_to_phone_notifications": "Ricevu sendajn ĝisdatigojn per teksto",
+        "order_updates_submit_subscription": "Submeti",
+        "track_shipment": "Spuri sendon",
+        "other_options": "Aliaj ebloj",
+        "delivery_information_label": "Liveraj informoj:",
+        "gift_card_sent_confirmation": "Donacaj kartoj senditaj",
+        "qr_code": {
+          "send_link_to_phone": "Aŭ sendu ligon al via telefono",
+          "title": "Spuri en via telefono"
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Skanu per via telefono"
+          },
+          "sms": {
+            "title": "Aŭ sendu ligon al via telefono"
+          }
+        },
+        "view_business_customer_account": "Vidu konton",
+        "breadcrumbs_submitted": "Submetita",
+        "breadcrumbs_in_review": "En recenzo",
+        "breadcrumbs_confirmed": "Konfirmita",
+        "missing_shipping_address_banner": {
+          "title": "Mendo ne havas sendan adreson",
+          "text_html": "%{contact_us} por aldoni vian adreson",
+          "contact_us": "Kontaktu nin"
+        },
+        "first_payment_complete": "Unua pago kompleta",
+        "in_store_purchase": "Aĉeto en vendejo",
+        "location_title": "Loko",
+        "thank_you_ready_for_picked_up": "Via mendo estis prenita ĉe %{address}.",
+        "ready_for_delivery": "Preta por livero",
+        "order_updates_subscribe_to_email_notifications_failed": "Ni ne povas konservi ĉi tiun retpoŝton por ĝisdatigoj. Bonvolu provi denove aŭ uzi alian retpoŝton.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "La retpoŝto, kiun vi enigis jam ekzistas.",
+        "subscriptions_management": {
+          "title": "Abono",
+          "description": "Daŭrigu al via konto por vidi kaj administri viajn abonojn.",
+          "button_label": "Administri vian abonon"
+        },
+        "manage_order_label": "Administri vian mendon",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Vi ricevos tekston kun via donackarto post kelkaj minutoj.",
+          "other": "Vi ricevos tekston kun viaj donackartoj post kelkaj minutoj."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Vi ricevos retpoŝton kun via donackarto post kelkaj minutoj.",
+          "other": "Vi ricevos retpoŝton kun viaj donackartoj post kelkaj minutoj."
+        },
+        "gift_card_email_title": {
+          "one": "Donackarto estis sendita retpoŝte",
+          "other": "Donacaj kartoj estis senditaj retpoŝte"
+        },
+        "gift_card_text_title": {
+          "one": "Donackarto estis sendita per tekstmesaĝo",
+          "other": "Donacaj kartoj estis senditaj per tekstmesaĝo"
+        },
+        "resend_gift_cards_by_email": "Resendu retpoŝton",
+        "resend_gift_cards_by_text": "Resendu tekstmesaĝon",
+        "gift_card_resent_confirmation": {
+          "one": "Donackarto estis resendita.",
+          "other": "Donackartoj estis senditaj."
+        },
+        "gift_card_resend_failure": {
+          "one": "Okazis problemo resendante vian donackarton. Provu denove aŭ kontaktu nin.",
+          "other": "Okazis problemo dum resendo de viaj donackartoj. Provu denove aŭ kontaktu nin."
+        }
+      },
+      "vaulted": {
+        "change_button": "Ŝanĝi"
+      },
+      "review": {
+        "title": "Recenzo",
+        "review_title": "Revizu kaj pagu",
+        "checkout_as_guest": "Kontrolu kiel gasto",
+        "checkout_a_different_way": "Kontrolu alimaniere",
+        "blocks": {
+          "contact_method_title": "Kontaktu",
+          "billing_address_title": "Fakturado",
+          "shipping_address_title": "Ekspedi al",
+          "shipping_method_title": "Sendado metodo",
+          "payment_method_title": "Pagmaniero",
+          "change_link_label": "Ŝanĝi",
+          "change_contact_method_link_label": "Ŝanĝu kontaktinformojn",
+          "change_billing_address_link_label": "Ŝanĝi fakturadreson",
+          "change_shipping_address_link_label": "Ŝanĝi sendan adreson",
+          "change_shipping_method_link_label": "Ŝanĝi sendan metodon",
+          "change_payment_method_link_label": "Ŝanĝi pagmetodon",
+          "pick_up_in_store_shipping_method_html": "Prenu en vendejo · %{location_name}",
+          "purchase_order_number_title": "PO-numero",
+          "change_purchase_order_number_label": "Ŝanĝu PO-numeron",
+          "change_delivery_method_link_label": "Ŝanĝi liveran metodon",
+          "no_address": "(Neniu adreso)",
+          "no_purchase_order_number": "(Neniu PO-numero)",
+          "due_after_order_reviewed_html": "Pago post kiam la mendo estas reviziita",
+          "review_title_free_order": "Revizu kaj kompletigu vian mendon",
+          "payment_method_saved_company_location": "Konservu karton por ĉi tiu loko"
+        },
+        "block_title": "Revizu viajn informojn"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Retpoŝtu min kun novaĵoj kaj ofertoj",
+        "post_accept_marketing_checkbox_label": "Vi estas abonita por ricevi retpoŝtajn novaĵojn kaj ofertojn",
+        "pending_accept_marketing_checkbox_label": "Kontrolu vian retpoŝton por konfirmi vian abonon al novaĵoj kaj ofertoj",
+        "accept_sms_checkbox_label": "Tekstu min kun novaĵoj kaj ofertoj",
+        "disclaimer": {
+          "privacy_policy": "Privateca Politiko",
+          "terms_of_service": "Reguloj de servado"
+        },
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Privateca Politiko",
+            "terms_of_service": "Reguloj de servado",
+            "description_html": "Aliĝante per teksto, vi konsentas ricevi ripetiĝantajn aŭtomatigitajn merkatajn mesaĝojn, inkluzive de ĉarrememorigiloj, ĉe la telefonnumero provizita. Konsento ne estas kondiĉo de aĉeto. Respondu STOP por malaboni. Respondu HELP por helpo. Mesaĝfrekvenco varias. Povas aplikiĝi pri mesaĝoj kaj datumoj. Rigardu nian %{privacy_policy_link} kaj %{terms_of_service_link}.",
+            "description_transactional_html": "Vi povas ricevi tekstmesaĝojn rilatajn al mendokonfirmo kaj sendaj ĝisdatigoj. Respondu STOP por malaboni. Respondu HELP por helpo. Mesaĝfrekvenco varias. Povas aplikiĝi pri mesaĝoj kaj datumoj. Rigardu nian %{privacy_policy_modal_link} kaj %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Poŝtelefona numero",
+          "get_offers_by_text": "Ricevu ofertojn per teksto"
+        },
+        "unsubscribe": {
+          "title": "Vi malabonis",
+          "description": "Vi ne ricevos pliajn ĉarrememorigilojn de ni."
+        },
+        "accept_shop_pay_marketing_checkbox_label": "Registriĝi min por novaĵoj kaj ofertoj de ĉi tiu vendejo"
+      },
+      "wallets": {
+        "errors": {
+          "invalid": {
+            "reduction_code": "Enigu validan rabatan kodon aŭ donackarton",
+            "billing_must_match_shipping": "Devas kongrui kun senda adreso"
+          },
+          "missing": {
+            "first_name": "Enigu antaŭnomon",
+            "last_name": "Enigu familian nomon",
+            "address1": "Enigu adreson",
+            "address2": "Eniru apartamenton, suiteon, ktp.",
+            "city": "Eniru urbon",
+            "province": "Elektu ŝtaton\/provincon",
+            "country": "Elektu landon\/regionon",
+            "zip": "Enigu poŝtkodon\/poŝtan kodon",
+            "phone": "Enigu telefonnumeron"
+          },
+          "formatting": {
+            "name_contains_emojis": "Forigu emoji de via nomo",
+            "postal_code_contains_emoji": "Forigu emoji de via poŝtkodo",
+            "first_name_too_long": "Antaŭnomo enhavas tro da literoj",
+            "last_name_too_long": "Familia nomo enhavas tro da literoj"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Via senda adreso estas nevalida. Elektu alian adreson aŭ uzu novan."
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Reduktu la grandecon de la noto al 5000 aŭ malpli da signoj."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Prezo de donackarto devas esti pli granda ol 0."
+          }
+        }
+      }
+    },
+    "pagination": {
+      "previous": "Antaŭa",
+      "next": "Poste"
+    },
+    "links": {
+      "powered_by_shopify": "Funkciigita de Shopify",
+      "learn_more": "Lernu pli"
+    },
+    "feed": {
+      "more": "Pli"
+    },
+    "attributes": {
+      "email": "retpoŝto",
+      "password": "Pasvorto",
+      "password_confirmation": "La konfirmo de pasvorto",
+      "first_name": "antaŭnomo",
+      "last_name": "Familia nomo",
+      "body": "korpo",
+      "signature": "Adreso"
+    },
+    "addresses": {
+      "zip_code": "Poŝtkodo",
+      "postal_code": "Poŝtkodo",
+      "postcode": "Poŝtkodo",
+      "pincode": "Pinkodo",
+      "region": "Regiono",
+      "prefecture": "Prefektejo",
+      "province": "Provinco",
+      "state": "Ŝtato",
+      "state_and_territory": "Ŝtato\/teritorio",
+      "county": "Distrikto",
+      "emirate": "Emirlando",
+      "governorate": "Gubernio",
+      "confirm": "Ĉu vi certas, ke vi volas forigi ĉi tiun adreson?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Prezentita",
+        "best_selling": "Plej vendata",
+        "az": "Alfabete, AZ",
+        "za": "Alfabete, ZA",
+        "price_ascending": "Prezo, malalta al alta",
+        "price_descending": "Prezo, alta ĝis malalta",
+        "date_ascending": "Dato, malnova al nova",
+        "date_descending": "Dato, nova al malnova"
+      }
+    },
+    "errors": {
+      "blank": "ne povas esti malplena",
+      "blocked_address": "Ĉi tiu loko ne estas subtenata.",
+      "credit_card_session_expired": "Kreditkarta rajtigo eksvalidiĝis, bonvolu enigi viajn pagajn informojn denove. Via karto ne estas ŝargita.",
+      "empty": "ne povas esti malplena",
+      "invalid_email": "Devas esti valida retpoŝtadreso",
+      "discount_disabled": "Ĉi tiu rabato estis malŝaltita",
+      "discount_expired": "Ĉi tiu rabato ne plu validas",
+      "discount_limit_reached": "Ĉi tiu rabato atingis sian uzlimon",
+      "discount_not_found": "Ne eblas trovi validan rabaton kongruan kun la enigita kodo",
+      "customer_already_used_once_per_customer_discount_notice": "Ĉi tiu rabato atingis sian uzlimon",
+      "gift_card_already_applied": "Kodo jam estis aplikita al via kaso",
+      "gift_card_code_invalid": "Kodo estas nevalida",
+      "gift_card_currency_mismatch": "Via donackarto estas en %{gift_card_currency}. Kontaktu nin por ke ĝi reeldonos en %{checkout_currency}.",
+      "gift_card_depleted": "Ne restas mono en ĉi tiu donackarto",
+      "gift_card_disabled": "Donackarto estas malŝaltita",
+      "gift_card_expired": "Donackarto eksvalidiĝis",
+      "invalid": "estas nevalida",
+      "bad_domain": "enhavas nevalidan domajnan nomon",
+      "taken": "jam estis prenita",
+      "contains_html_tags": "ne povas enhavi HTML-etikedojn",
+      "too_short": "estas tro mallonga (minimumo estas %{count} signoj)",
+      "too_long": "estas tro longa (maksimume estas %{count} signoj)",
+      "password_mismatch": "devas kongrui kun la provizita pasvorto",
+      "contains_spaces": "komenciĝas aŭ finiĝas per spacoj.",
+      "email_domain_invalid": "provizanto ne estas subtenata",
+      "invalid_for_country": "ne validas por %{country}",
+      "invalid_for_country_and_province": "ne validas por %{province} kaj %{country}",
+      "invalid_province_in_country": "ne estas valida provinco en %{country}",
+      "invalid_state_in_country": "ne estas valida ŝtato en %{country}",
+      "invalid_region_in_country": "ne estas valida regiono en %{country}",
+      "less_than_or_equal_to": "devas esti malpli ol aŭ egala al %{count}",
+      "not_supported": "ne estas subtenata",
+      "full_name_required": "Enigu antaŭnomon kaj familian nomon",
+      "invalid_for_card_type": "ne validas",
+      "invalid_type": "pardonu, ni ne akceptas kartojn de ĉi tiu tipo",
+      "invalid_format": "formato ne validas",
+      "expired": "eksvalidiĝis",
+      "invalid_start_date_or_issue_number_for_debit": "valida komencdato aŭ eldona numero estas postulata",
+      "invalid_expiry_year": "ne estas valida eksvalida jaro",
+      "reset_password_html": "Ĉi tiu retadreso jam estas asociita kun konto. Se ĉi tiu konto estas via, vi povas <a href=\"\/account\/login#recover\">restarigi vian pasvorton<\/a>",
+      "verify_email": "Ni sendis retmesaĝon al %{customer_email}, bonvolu klaki la ligilon inkluzivita por kontroli vian retadreson.",
+      "product_not_available": "produkto ne estas publikigita por ĉi tiu kliento.",
+      "shop_404": {
+        "title": "Kreu Ekomercan Retejon kaj Vendu Interrete! Telekomerca Programaro de Shopify",
+        "heros": {
+          "store_unavailable": "Pardonu, ĉi tiu vendejo estas nuntempe nedisponebla.",
+          "store_not_exist": "Ĉi tiu vendejo ne ekzistas.",
+          "no_storefront": "Ĉi tiu vendejo ankoraŭ ne havas retejon."
+        },
+        "links": {
+          "explore_other_stores": "Esploru aliajn butikojn",
+          "start_free_trial": "Komencu senpagan provon"
+        },
+        "owner_ctas": {
+          "header": "Ĉu vi estas la posedanto de la vendejo?"
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "account_information": {
+      "add_button": "Aldoni"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Opcioj de aranĝo",
+      "list_title": "Mendoj",
+      "order_list": {
+        "column_headers": {
+          "order": "Ordo",
+          "items": "Eroj",
+          "total": "Entute"
+        },
+        "delivered": "Liverita {{date}}",
+        "empty_state_order_source_description": "Nur mendoj faritaj de {{email}} montros ĉi tie.",
+        "empty_state_subtitle": "Iru al vendejo por fari mendon.",
+        "empty_state_title": "Ankoraŭ neniuj mendoj",
+        "empty_state_title_for_pending_orders": "Neniuj pritraktataj mendoj",
+        "estimated_shortform": "Est. {{date}}",
+        "estimated_delivery": "Laŭtaksa livero {{date}}",
+        "one_images_accessibility_label": "Mendo inkluzivas {{lineItemName1}}",
+        "two_images_accessibility_label": "Mendo inkluzivas {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "Ordo inkluzivas {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "Ordo inkluzivas {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "more_than_three_products_accessibility_label": "Mendo inkluzivas {{lineItemName1}} , {{lineItemName2}} , kaj {{numberOfAdditionalProducts}} pliajn produktojn",
+        "more_than_four_products_accessibility_label": "Mendo inkluzivas {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , kaj {{numberOfAdditionalProducts}} pliajn produktojn",
+        "plus_more": "+ {{numberOfAdditionalProducts}}",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produktoj",
+        "carousel": {
+          "one_products_accessibility_label": "Mendo inkluzivas {{lineItemName1}} kvanton {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Mendo inkluzivas {{lineItemName1}} kvanton {{lineItemQuantity1}} , {{lineItemName2}} kvanton {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Mendo inkluzivas {{lineItemName1}} kvanton {{lineItemQuantity1}} , {{lineItemName2}} kvanton {{lineItemQuantity2}} , {{lineItemName3}} kvanton {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Mendo inkluzivas {{lineItemName1}} kvanton {{lineItemQuantity1}} , {{lineItemName2}} kvanton {{lineItemQuantity2}} , {{lineItemName3}} kvanton {{lineItemQuantity3}} , {{lineItemName4}} kvanton {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Mendo inkluzivas {{lineItemName1}} kvanton {{lineItemQuantity1}} , {{lineItemName2}} kvanton {{lineItemQuantity2}} , {{lineItemName3}} kvanton {{lineItemQuantity3}} , {{lineItemName4}} kvanton {{lineItemQuantity4}} , {{lineItemName5}} kvanto {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Mendo inkluzivas {{lineItemName1}} kvanton {{lineItemQuantity1}} , {{lineItemName2}} kvanton {{lineItemQuantity2}} , {{lineItemName3}} kvanton {{lineItemQuantity3}} , {{lineItemName4}} kvanton {{lineItemQuantity4}} , {{lineItemName5}} kvanto {{lineItemQuantity5}} , {{lineItemName6}} kvanto {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Mendo inkluzivas {{lineItemName1}} kvanton {{lineItemQuantity1}} , {{lineItemName2}} kvanton {{lineItemQuantity2}} , {{lineItemName3}} kvanton {{lineItemQuantity3}} , {{lineItemName4}} kvanton {{lineItemQuantity4}} , {{lineItemName5}} kvanto {{lineItemQuantity5}} , {{lineItemName6}} kvanto {{lineItemQuantity6}} kaj pli",
+          "view_order_details": "Vidu mendo detaloj",
+          "previous": "Antaŭa",
+          "next": "Poste"
+        },
+        "items": {
+          "one": "{{count}} ero",
+          "other": "{{count}} eroj"
+        },
+        "list_view": "Montru listvidon",
+        "no_filtered_results_description": "Forigu aŭ ĝustigu filtrilojn por vidi viajn mendojn",
+        "no_filtered_results_title": "Neniuj filtritaj rezultoj",
+        "order_link": "Vidu mendon {{name}}",
+        "order_number": "Mendu {{name}}",
+        "orders_title": "Konfirmita",
+        "pagination": {
+          "nav_accessibility_label": "Mendoj navigaj butonoj",
+          "next": "Poste",
+          "next_accessibility_label": "Sekvaj mendoj",
+          "previous": "Antaŭa",
+          "previous_accessibility_label": "Antaŭaj mendoj",
+          "load_more": "Ŝarĝu pli",
+          "load_more_accessibility_label": "Ŝarĝu pli da mendoj"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Vidu mendon por detaloj",
+            "estimated_delivery": "Laŭtaksa livero {{date}}",
+            "last_updated": "Laste ĝisdatigita {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Est. livero {{date}}"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Pago prokrastita",
+            "due": "Pago antaŭ {{date}}",
+            "due_today": "Pago ŝuldata hodiaŭ",
+            "due_without_date": "Pago ŝuldata",
+            "due_on_fulfillment": "Pago ŝuldata je plenumo",
+            "pay_to_confirm": "Pagu por konfirmi",
+            "payment_not_due": "Pago ankoraŭ ne ŝuldata"
+          },
+          "table_view": {
+            "overdue": "Malfrua",
+            "due": "Estu {{date}}",
+            "due_today": "Paga hodiaŭ",
+            "paid": "Pagita",
+            "due_without_date": "Pro",
+            "due_on_fulfillment": "Paga sur plenumo",
+            "pay_to_confirm": "Pagu por konfirmi",
+            "payment_not_due": "Ankoraŭ ne ŝuldata"
+          }
+        },
+        "sort_by": "Ordigi laŭ: {{option}}",
+        "sort_hide_options_accessibility_label": "Kaŝi ordigajn elektojn por konfirmitaj mendoj.",
+        "sort_show_options_accessibility_label": "Montru ordigajn elektojn por konfirmitaj mendoj.",
+        "sort_currently_sorted_by_accessibility_label": "Nuntempe ordigita per: {{option}}",
+        "sort_title": "Ordigi",
+        "sort": {
+          "date": {
+            "newest": "De la plej nova ĝis la plej malnova",
+            "oldest": "De la plej malnova ĝis la plej nova"
+          },
+          "location": {
+            "ascending": "Loko (AZ)",
+            "descending": "Loko (ZA)"
+          },
+          "order_number": {
+            "ascending": "Mendonumero (malalta ĝis alta)",
+            "descending": "Ordonumero (alta ĝis malalta)"
+          },
+          "order_total": {
+            "ascending": "Totalo de mendo (malalta ĝis alta)",
+            "descending": "Ordotuto (alta ĝis malalta)"
+          }
+        },
+        "filter_title": "Filtrilo",
+        "filter": {
+          "clear_section": "Klara sekcio",
+          "clear_all": "Forigi ĉion",
+          "apply": "Apliki",
+          "date": {
+            "start_date": "Komenca dato",
+            "end_date": "Findato",
+            "title": "Dato de mendo",
+            "today": "Hodiaŭ",
+            "last_7_days": "Lastaj 7 tagoj",
+            "last_30_days": "Lastaj 30 tagoj",
+            "last_90_days": "Lastaj 90 tagoj",
+            "last_365_days": "Lastaj 12 monatoj",
+            "custom": "Kutimo"
+          }
+        },
+        "table_view": "Montru tabelan vidon",
+        "show_order_actions_accessibility_label": "Montri mendagojn por mendo {{name}}"
+      },
+      "order_status": {
+        "attempted_delivery_label": "Provo de liverado",
+        "attempted_delivery_description": "La livera provo estis malsukcesa.",
+        "attempted_to_deliver_label": "Provis liveri",
+        "confirmed_description": "Ni ricevis vian mendon.",
+        "on_its_way_description": "Ĉi tiu sendo estas survoje.",
+        "out_for_delivery_description": "Ĉi tiu sendo estas liverebla.",
+        "preparing_for_shipping_label": "Preparante por sendo"
       }
     }
   }
