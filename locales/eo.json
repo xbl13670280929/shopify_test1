@@ -113,7 +113,120 @@
             "must_fulfill_from_constraint_not_satisfied": "Plenumlimoj ne estas kontentigitaj ĉar eroj ne povas esti plenumitaj de postulataj lokoj.",
             "must_fulfill_from_same_location_constraint_not_satisfied": "Plenumlimoj ne estas kontentigitaj ĉar eroj ne povas esti plenumitaj de la sama loko.",
             "delivery_strategy_conditions_not_satisfied": "Liveraj strategioj estas disponeblaj por ĉi tiu loko, sed iliaj kondiĉoj ne estas kontentigitaj.",
-            "out_of_stock_at_origin_location": "Neniu stoko ĉe la originloko."
+            "out_of_stock_at_origin_location": "Neniu stoko ĉe la originloko.",
+            "invalid_signature": "Nevalida rabatsignaturo."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Rabatoj ne estas permesitaj en B2B-butikoj.",
+            "custom_discount_not_honoured": "La provizita kutima rabato ne estis honorita.",
+            "unsupported_expectation": "La provizita rabatlinio enhavis atendon ke la politiko ne povis interpreti.",
+            "additional_requested_discount_code_discarded": "Plia koda rabato petita estis forĵetita.",
+            "allocations_mismatch": "La atendata rabato ne kongruas kun la reala rabato.",
+            "discount_code_not_honoured": "Rabatkodo ne aplikata."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Nova impostlinio en la vendopropono devas esti akceptita por daŭri.",
+            "unresolvable_tax_terms": "La proponitaj kondiĉoj estas nesolveblaj pro la nuna intertraktadkunteksto.",
+            "delivery_price_is_abstract": "La rilata livera prezo estas abstrakta.",
+            "tax_inclusivity_mismatch": "Renegoci kun konkreta totalTaxAndDutyAmount aŭ totalAmountIncludedInTarget-valoro.",
+            "tax_exemption_not_supported": "Senimpostoj ne estas subtenataj por la nuna intertraktadsesio.",
+            "delivery_tax_exemption_not_supported": "Imposcenzoj por liverlinioj ne estas nuntempe subtenataj.",
+            "proposed_allocations_required": "Mankas kampo \"proponitaj asignoj\".",
+            "merchandise_terms_must_be_defined": "Varkondiĉoj devas esti difinitaj.",
+            "delivery_terms_must_be_defined": "Liverkondiĉoj devas esti difinitaj.",
+            "merchandise_discount_terms_must_be_defined": "Varraj rabataj terminoj devas esti difinitaj.",
+            "delivery_discount_terms_must_be_defined": "Liverrabataj terminoj devas esti difinitaj.",
+            "allocated_required": "Mankas 'asignita' kampo.",
+            "value_required": "Mankas kampo \"valora\".",
+            "line_splits_not_supported": "\"varaj linioj\" kampo devas esti dividita en tia ke ĉiu havas unulinian komponenton en la vendistopropono."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Manaj pagoj ne estas permesitaj en B2B-butikoj.",
+            "positive_amount_expected": "Pagoda kvanto devas esti pli granda ol 0.",
+            "total_amount_mismatch": "Sumo por pagi ne kongruas kun la sumo de la pagokvanto.",
+            "subscription_terms_not_accepted": "Abonkondiĉoj ne akceptitaj.",
+            "missing_session_id": "Mankas informoj pri sesio pri kreditkarto.",
+            "gateway_not_supported": "Pagpordejo ne subtenas stokadon de la pagmetodo.",
+            "credit_card_last_name_required": "'familinomo' ne povas esti nula.",
+            "credit_card_update_failed": "Ĝisdatigo de kreditkarto malsukcesis.",
+            "installments_amount_invalid": "Nevalida kvanto por transakcio de partopagoj.",
+            "installments_test_mode_not_allowed": "Testreĝimo ne permesita.",
+            "installments_gift_card_not_allowed": "Pagoj ne permesas la uzon de donackartoj.",
+            "installments_unsupported_currency": "Pagoj ne subtenas ĉi tiun valuton.",
+            "installments_unsupported_shipping": "Pagoj ne subtenas sendadon al ĉi tiu adreso.",
+            "installments_unsupported_billing": "Pagoj ne subtenas ĉi tiun fakturadreson.",
+            "installments_unsupported_subscriptions": "Pagoj ne subtenas abonojn.",
+            "installments_ineligible_line_item": "Pagoj estas malŝaltita por linioero en ĉi tiu aĉeto.",
+            "shop_cash_not_allowed": "Butiko kontanta ne permesita sen Shop Pay.",
+            "shop_cash_unsupported_checkout_source": "Shop Cash ne subtenas ĉi tiun pagon.",
+            "shop_cash_gift_card_not_allowed": "Shop Cash ne permesas la aĉeton de donackartoj.",
+            "shop_cash_not_enabled": "Shop Cash ne estas ebligita por ĉi tiu butiko.",
+            "shop_cash_unsupported_subscriptions": "Shop Cash ne subtenas abonojn.",
+            "shop_cash_unsupported_shipping": "Butiko Cash ne subtenas varon sen sendado.",
+            "invalid_address_type": "La provizita adrestipo ne validas por ĉi tiu pagmaniero.",
+            "missing_retail_attributions": "Podetalaj atribuoj estas postulataj por mane enigitaj kreditkartaj pagoj.",
+            "unexpected_retail_attributions": "Podetalaj atribuoj neatendite provizis por kreditkarta pago.",
+            "invalid_card_source": "Ĉi tiu sesio ne havas permeson uzi ĉi tiun kartofonton.",
+            "wallet_content_missing": "Mankas enhavo de monujo.",
+            "payment_instrument_not_found": "Ne eblis trovi pagmetodon",
+            "unauthorized_capture_method": "Agordo de la pagkapta metodo ne estas permesita.",
+            "saved_payment_methods_not_allowed": "Konservitaj pagmetodoj ne estas permesitaj.",
+            "saved_payment_methods_not_enabled": "Konservitaj pagmetodoj ne estas ebligitaj por ĉi tiu butiko.",
+            "saved_payment_methods_cvv_verification_disabled": "La elektita pagmetodo postulas CVV-konfirmon, kiu ne estas ebligita por ĉi tiu butiko. Elektu alian pagmetodon.",
+            "store_credit_not_enabled": "Butikkredito ne estas ebligita por ĉi tiu butiko.",
+            "store_credit_account_not_found": "Kreditkonto de magazeno ne trovita.",
+            "store_credit_account_mismatch": "Butika kreditkonto ne kongruas kun la aĉetantidenteco.",
+            "store_credit_mismatched_currency": "La valuto de la butika kreditkonto ne kongruas kun la kasa valuto.",
+            "store_credit_insufficient_funds": "Estas nesufiĉaj financoj en la butika kreditkonto.",
+            "store_credit_buying_gift_card": "Vi ne povas uzi butikkrediton por aĉeti donackarton.",
+            "gift_cards_not_allowed_for_b2b": "Donackartoj ne estas permesitaj en B2B-butikoj.",
+            "method_required": "Pagmetodo devas esti proponita.",
+            "paypal_express_address_invalid": "PayPal resendis nevalidan adreson.",
+            "shop_cash_unsupported_currency": "Shop Cash ne subtenas ĉi tiun valuton.",
+            "market_manager_blocks_wallet_payments": "Pagmetodo ne estas subtenata de la merkatadministranto."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Butiko ne akceptas konsiletojn.",
+            "only_one_tip_line_allowed": "Multoblaj konsiletoj ne estas subtenataj.",
+            "tips_not_allowed_for_b2b": "Konsiletoj ne estas permesitaj en B2B-butikoj.",
+            "currency_change_reset": "Konsilo estis rekomencigita pro monŝanĝo.",
+            "tips_not_allowed_for_deferred_purchase_options": "Konsiletoj ankoraŭ ne estas subtenataj por prokrastitaj aĉetopcioj."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Ĉi tiu malneto de mendo ne ekzistas en la nuna butiko.",
+            "staff_member_not_exist": "Ĉi tiu personaro ne ekzistas en la nuna butiko.",
+            "location_not_exist": "Ĉi tiu loko ne ekzistas en la nuna butiko.",
+            "point_of_sale_device_not_exist": "Ĉi tiu vendeja aparato ne ekzistas en la nuna butiko.",
+            "unresolvable_target_merchandise_lines": "La proponataj vendatribuoj estas nesolveblaj pro la nuna intertraktadkunteksto."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "La propono de via aĉetanto devus enhavi nenegotiable_terms.",
+            "invalid_signature": "La subskribo por {{target_terms}} estas nevalida."
+          },
+          "inventory": {
+            "missing_quantity_value": "Kvanta kampo mankas en la stoklinioj de la aĉetanto.",
+            "changing_behavior_not_allowed": "Ĉi tiu kliento ne havas permeson ŝanĝi inventaran konduton.",
+            "only_one_inventory_behavior_allowed": "Nuntempe nur unu inventara konduto estas permesita per kaso."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Ne estas permesita rifuzi devojn por ĉi tiu kaso."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Podetala atribuo ne estas permesita por ĉi tiu pago.",
+            "retail_attribution_required": "Podetala atribuo estas postulata por ĉi tiu kaso."
+          },
+          "captcha": {
+            "metadata_missing": "Kompletigi captchaon estas bezonata por ĉi tiu pago.",
+            "metadata_mismatch": "Provizata captcha provizanto kaj tipo ne kongruas kun la atendataj valoroj.",
+            "token_missing": "Captcha-ĵetono devas esti provizita por plenumi ĉi tiun pagon.",
+            "job_enqueue_failed": "La captcha validiga laboro ne estis envicigita.",
+            "job_already_queued": "Kaptcha validigo jam estas vicigita por ĉi tiu captcha ĵetono.",
+            "token_expired": "La provizita captcha ĵetono eksvalidiĝis. Kompletigu novan kapĉan por daŭrigi pagadon.",
+            "token_invalid": "La provizita captcha ĵetono estis nevalida. Kompletigu novan kapĉan por daŭrigi pagadon.",
+            "token_not_valid_for_session": "La provizita captcha ne povas esti uzata kun ĉi tiu kaso."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "La ricevita kvanto devas esti en la vendeja valuto."
           }
         },
         "back_button_label": "Revenu",
@@ -170,7 +283,15 @@
             "one": "Areto de {{number}} markilo",
             "other": "Areto de {{number}} markiloj"
           }
-        }
+        },
+        "full_price": "Plena prezo:",
+        "title": "Pago - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - Pagu",
+        "loading_title": "Pago - {{shopName}}",
+        "submit_order_button_label": "Sendu mendon",
+        "submit_for_review_button_label": "Sendu por revizio",
+        "submit_for_review_notice_label": "Pago ne estos pagenda ĝis via mendo estos reviziita",
+        "continue_to_payment_plans_button_label": "Daŭrigu pagajn planojn"
       },
       "contact": {
         "title": "Informoj",
