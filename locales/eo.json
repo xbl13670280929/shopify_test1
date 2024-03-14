@@ -227,7 +227,13 @@
         "pincode_label": "PIN-kodo",
         "pincode_placeholder": "PIN-kodo",
         "civic_number_warning": "Aldonu domnumeron se vi havas tian",
-        "optional_last_name_label": "Familia nomo (laŭvola)"
+        "optional_last_name_label": "Familia nomo (laŭvola)",
+        "optional_recipient_label": "Atentu (laŭvola)",
+        "different_shipping_address_label": "Sendu al malsama adreso",
+        "different_shipping_address_text": "Uzu unufojan adreson por ĉi tiu mendo",
+        "change_company_location_link_label": "Ŝanĝi kompanion lokon",
+        "change_location_link_label": "Ŝanĝi lokon",
+        "ship_to_company": "Sendu al {{companyName}}"
       },
       "order_summary": {
         "discount_placeholder": "Rabatkodo",
@@ -332,7 +338,22 @@
           "total_paid": "Totalo pagita"
         },
         "maximum_discount_code_limit_reached": "Vi atingis la maksimuman nombron da rabataj kodoj. Forigu ekzistantan kodon por uzi <strong style=\"text-transform:uppercase\">%{code}<\/strong> .",
-        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> ne funkcias nun. Kontaktu nin por helpo."
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> ne funkcias nun. Kontaktu nin por helpo.",
+        "title": "Mendo resumo",
+        "group_title_label": "Parto de \"%{group_title}\"",
+        "order_name_label": "Mendo %{name}",
+        "shopping_cart_label": "Aĉetoĉaro",
+        "discount_title": "Rabato",
+        "discount_title_stacking": {
+          "one": "Rabato",
+          "other": "Rabatoj"
+        },
+        "discount_order_stacking": {
+          "one": "Ordorabato",
+          "other": "Mendu rabatojn"
+        },
+        "discount_label": "Rabatkodo",
+        "discount_not_found": "Ne eblas trovi validan rabaton kongruan kun la enigita kodo"
       },
       "payment": {
         "card_fields": {
@@ -665,6 +686,129 @@
           "merchandise": {
             "gift_card_price_must_be_greater_than_zero": "Prezo de donackarto devas esti pli granda ol 0."
           }
+        }
+      },
+      "delivery_options": {
+        "free_total_label": "Senpaga",
+        "ship": "Ŝipo",
+        "ship_to_address": "Sendu al adreso",
+        "shipping_address": "Sendo adreso",
+        "pick_up": "Prenu",
+        "pick_up_from_store": "Prenu el vendejo",
+        "pick_up_locations": "Kaptaj lokoj",
+        "pick_up_in_one_hour": "Kutime preta en 1 horo",
+        "pick_up_in_two_hours": "Kutime preta en 2 horoj",
+        "pick_up_in_four_hours": "Kutime preta en 4 horoj",
+        "pick_up_in_twenty_four_hours": "Kutime preta en 24 horoj",
+        "pick_up_in_two_to_four_days": "Kutime preta en 2-4 tagoj",
+        "pick_up_in_five_or_more_days": "Kutime preta en 5+ tagoj",
+        "pick_up_in_zero_to_two_hours": "Preta por preni en 2 horoj",
+        "pick_up_in_two_to_four_hours": "Preta por preni en 4 horoj",
+        "pick_up_immediately": "Preta por preni nun",
+        "pick_up_next_day": "Preta por preni la venontan tagon",
+        "pickup_point_method_definition": "Ŝipo al kolektejo",
+        "retail_method_definition": "Podetala sendado",
+        "none_method_definition": "Neniu sendado",
+        "subscription_pickup_information": "Ĉi tiu livera metodo aplikiĝos al ĉiuj aĵoj en ĉi tiu ordo kaj al ĉiuj estontaj mendoj por ĉi tiu abono."
+      },
+      "customer_account": {
+        "not_user_label": "Ĉu ne %{first_name}?",
+        "have_an_account_label": "Havas konton?",
+        "sign_in_link_label": "Ensaluti",
+        "sign_out_link_label": "Elsaluti",
+        "save_my_information_label": "Konservu ĉi tiun informon por la venontan fojon",
+        "invalid_address": "Elektita adreso estas malvalida. %{update_address_link} aŭ elektu alian adreson.",
+        "incomplete_address": "Elektita adreso estas nekompleta. %{update_address_link} aŭ elektu alian adreson.",
+        "rollup_label": "Konto",
+        "invalid_shipping_method_summary": "Elektu validan sendadreson por vidi disponeblajn sendajn metodojn"
+      },
+      "stock": {
+        "page_title": "Temoj de inventaro",
+        "title": "Elĉerpita",
+        "items_unavailable_notice": "Iuj eroj ne plu disponeblas.",
+        "product_column_header": "Produktoj",
+        "quantity_column_header": "Kvanto",
+        "price_column_header": "Prezo",
+        "status_column_header": "Statuso",
+        "removed_from_cart_notice": "Forigita de ĉaro",
+        "sold_out_label": "Elvendita",
+        "reduced_label": "Reduktita",
+        "reduced_with_quantity_label": "Restas nur %{quantity_available}",
+        "remove_from_cart_button_label": "Forigi el ĉaro",
+        "continue_shopping_button_label": "Daŭrigu",
+        "go_back_to_cart_button_label": "Reiru al mia ĉaro",
+        "remove": "Forigi",
+        "return_to_store_label": "Revenu al vendejo",
+        "continue_cta_label": "Daŭrigu kontrolon",
+        "item_label": {
+          "one": "{{count}} ero",
+          "other": "{{count}} eroj"
+        },
+        "empty_cart_label": "Via ĉaro estas malplena",
+        "quantity_update": {
+          "page_title": "Kvanta ĝisdatigo",
+          "title": "Kvanta ĝisdatigo",
+          "description": "Disponeblaj kvantoj por ĉi tiuj aĵoj ŝanĝiĝis kaj estas ĝisdatigitaj en via ĉaro."
+        },
+        "unpurchasable_product": {
+          "title": "Neaĉetebla produkto",
+          "header": "Kelkaj aĵoj estis forigitaj de via ĉaro",
+          "message": "Ĉi tiuj aĵoj ne haveblas por B2B mendoj.",
+          "status_column_header": "Ne disponebla"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Neaĉetebla produkto",
+          "header": "Kelkaj aĵoj estis forigitaj de via ĉaro",
+          "message": "Ĉi tiuj eroj ne estas disponeblaj.",
+          "status_column_header": "Ne disponebla"
+        },
+        "unshippable_product": {
+          "title": "Neniu livero disponebla",
+          "header": {
+            "one": "Neniu livero disponebla por %{count} objekto",
+            "other": "Neniu livero disponebla por %{count} eroj"
+          },
+          "message": {
+            "one": "Ĉi tiu aĵo estos forigita de via ĉaro ĉar ne estas liveraj metodoj disponeblaj por via adreso.",
+            "other": "Ĉi tiuj aĵoj estos forigitaj de via ĉaro ĉar ne estas liveraj metodoj disponeblaj por via adreso."
+          },
+          "status_column_header": "Neniu livero"
+        },
+        "price_update": {
+          "title": "Prezo ĝisdatigo",
+          "description": "Prezoj por ĉi tiuj aĵoj ŝanĝiĝis kaj estas ĝisdatigitaj en via ĉaro."
+        },
+        "out_of_stock": {
+          "description": "Ĉi tiuj aĵoj ne plu disponeblas kaj estis forigitaj de via ĉaro.",
+          "items_unavailable": "Iuj aĵoj ne plu haveblas kaj estis forigitaj de via ĉaro."
+        }
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Nedisponebla produkto",
+          "other": "Nedisponeblaj produktoj"
+        },
+        "products_not_available": {
+          "one": "Ĉi tiu produkto estos forigita de via ĉaro ĉar ĝi ne haveblas en via lando\/regiono.",
+          "other": "Ĉi tiuj produktoj estos forigitaj de via ĉaro ĉar ili ne haveblas en via lando\/regiono."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Ĉi tiu produkto ne haveblas en via lando\/regiono.",
+          "other": "Ĉi tiuj produktoj ne haveblas en via lando\/regiono."
+        },
+        "unavailable_label": "Nedisponebla"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Neniu livero disponebla por %{count} objekto",
+            "other": "Neniu livero disponebla por %{count} eroj"
+          },
+          "message": {
+            "one": "Ĉi tiu aĵo estos forigita de via ĉaro ĉar ne estas liveraj metodoj disponeblaj por via adreso.",
+            "other": "Ĉi tiuj aĵoj estos forigitaj de via ĉaro ĉar ne estas liveraj metodoj disponeblaj por via adreso."
+          },
+          "label": "Neniu livero"
         }
       }
     },
