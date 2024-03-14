@@ -773,11 +773,130 @@
           "header": "Ĉu vi estas la posedanto de la vendejo?"
         }
       }
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Vi elektis retpoŝti malferman spuradon.<\/b>",
+          "visibility": "Retpoŝtaj malfermaj tarifoj estos raportitaj anonime. Ni vidos nur ĉu vi malfermis retpoŝton kiel parto de aldonita retpoŝta malferma indico.",
+          "opt_out_html": "Vi povas <a style=\"text-decoration:underline;\" href=\"%{link}\">elekti ekstere<\/a> de retpoŝta malferma spurado se vi ne volas kunhavigi ĉi tiun informon.",
+          "preview_bar": "Vi antaŭrigardas kion vidos klientoj kiam ili elektas retpoŝti malferman spuradon."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Vi elektis for de retpoŝta malferma spurado.<\/b>",
+          "visibility": "Ni ne vidos ĉu vi malfermis niajn retpoŝtojn.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Elektu<\/a> retpoŝti malferman spuradon.",
+          "preview_bar": "Vi antaŭrigardas, kion vidos klientoj kiam ili elektas ekstere de retpoŝta malferma spurado."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Ni ne plu spuras neniun retpoŝton malfermitaj.<\/b>",
+          "privacy_policy": "Post kiam ĉi tiu retpoŝto estis sendita, ni ĝisdatigis nian privatecan politikon kaj ni ne plu spuras malfermaĵojn."
+        },
+        "track": {
+          "status_html": "<b>Retpoŝta malferma spurado estas raportita.<\/b>",
+          "visibility": "Ni vidos nur ĉu vi malfermis la retpoŝton, kiel parto de la totala retpoŝta malferma indico."
+        },
+        "updated_policy": {
+          "status_html": "<b>Retpoŝta malferma spurado estas raportita.<\/b>",
+          "visibility": "Ni ĝisdatigis nian politikon, kaj nun malfermiĝas spuraj retpoŝtoj. Retpoŝtaj malfermaj tarifoj estos raportitaj anonime. Ni vidos nur ĉu vi malfermis retpoŝton kiel parto de la totala retpoŝta malferma indico.",
+          "opt_out_html": "Se vi ne volas kunhavigi ĉi tiujn informojn, vi povas <a style=\"text-decoration:underline;\" href=\"%{link}\">malaboni.<\/a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "En stoko",
+          "out_of_stock": "Elĉerpita"
+        }
+      },
+      "boolean": {
+        "true_label": "Jes",
+        "false_label": "Ne"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Graveco",
+        "price_ascending": "Prezo, malalta al alta",
+        "price_descending": "Prezo, alta ĝis malalta"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Eraro - %{title}",
+      "products": "Produktoj",
+      "shopping_cart": "Via Aĉetveturilo",
+      "account": "Konto",
+      "create_account": "Krei konton",
+      "reset_account": "Restarigi Konton",
+      "addresses": "Adresoj",
+      "order": "Mendo %{name}",
+      "search": "Serĉu",
+      "search_results": {
+        "one": "Serĉu: %{count} rezulto trovita por \"%{terms}\"",
+        "other": "Serĉu: %{count} rezultoj trovitaj por \"%{terms}\""
+      },
+      "collections": "Kolektoj",
+      "not_found": "404 Ne Trovita",
+      "challenge": "Defio",
+      "checkpoint": "Kontrolpunkto"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} rabatoj estis aplikitaj"
+    },
+    "challenge": {
+      "message": "Por daŭrigi, informu nin, ke vi ne estas roboto.",
+      "error": "Via respondo ne estis ĝusta, bonvolu provi denove.",
+      "submit_button_text": "Submeti"
+    },
+    "checkpoint": {
+      "message": "Solvu Captcha por daŭrigi",
+      "error": "Kaptcha validigo malsukcesis",
+      "submit_button_text": "Submeti"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Kutime preta en 1 horo",
+        "two_hours": "Kutime preta en 2 horoj",
+        "four_hours": "Kutime preta en 4 horoj",
+        "twenty_four_hours": "Kutime preta en 24 horoj",
+        "two_to_four_days": "Kutime preta en 2-4 tagoj",
+        "five_or_more_days": "Kutime preta en 5+ tagoj",
+        "zero_to_two_hours": "Kutime preta en 2 horoj",
+        "two_to_four_hours": "Kutime preta en 4 horoj",
+        "immediately": "Preta por preni nun",
+        "next_day": "Preta por preni la venontan tagon"
+      }
     }
   },
   "customer_accounts": {
     "account_information": {
-      "add_button": "Aldoni"
+      "add_button": "Aldoni",
+      "loading_accessibility_message": "Ŝarĝante kontajn informojn",
+      "loading_finished_accessibility_message": "Kontaj informoj ŝargis",
+      "profile_card": {
+        "cancel": "Nuligi",
+        "cancel_accessibility_label": "Nuligi redaktadon de profilo",
+        "edit": "Redakti",
+        "edit_accessibility_label": "Redaktu profilon",
+        "email_help_text": "Retpoŝto uzata por ensaluto ne povas esti ŝanĝita",
+        "first_name": "Antaŭnomo",
+        "last_name": "Familia nomo",
+        "no_name_provided_accessibility_label": "Neniu nomo aldonita",
+        "phone_number_help_text": "Telefonnumero uzata por ensaluto ne povas esti ŝanĝita",
+        "save": "Savi",
+        "save_accessibility_label": "Konservu profilon",
+        "title": "Profilo"
+      },
+      "profile_update_confirmation_message": "Profilo ĝisdatigita",
+      "title": "Profilo",
+      "people": {
+        "pagination": {
+          "load_more": "Ŝarĝu pli",
+          "load_more_accessibility_label": "Ŝarĝu pli da homoj",
+          "loading_accessibility_label": "Ŝarĝante homojn"
+        }
+      }
     },
     "orders": {
       "list_layout_accessibility_label": "Opcioj de aranĝo",
@@ -1188,6 +1307,39 @@
         "description": "Ĉi tiu ordo ne ekzistas aŭ vi ne havas permeson vidi ĝin.",
         "title": "Ordo ne trovita"
       }
+    },
+    "enable_javascript": "Por vidi vian konton, ebligu JavaScript en via retumila agordo aŭ ensalutu per alia retumilo.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Kaŝi Konton menuo",
+        "label": "Konto",
+        "show_accessibility_label": "Montru Konto-menuon",
+        "nav_accessibility_label": "Konta navigado",
+        "open_menu_accessibility_label": "Malfermu Kontan navigadon",
+        "close_menu_accessibility_label": "Fermu kontan navigadon",
+        "loading_message": "Ŝarĝante kontan navigadon"
+      },
+      "action_menu_accessibility_label": "Pli da agoj",
+      "close_menu_accessibility_label": "Fermu ĉefan navigadon",
+      "contact_email_subject": "Kontaktu el {{shopName}} reta butiko",
+      "contact_link": "Kontaktu nin",
+      "delete_confirmation": {
+        "cancel": "Nuligi",
+        "delete": "Forigi"
+      },
+      "dismiss_toast": "Forĵeti",
+      "document_title": "{{sectionName}} - {{shopName}} - Konto",
+      "go_to_store_link": "Iru al vendejo",
+      "loading_message": "Ŝarĝante",
+      "log_out_link": "Elsaluti",
+      "logout_overlay_label": "Malsaluti vin...",
+      "nav_label_accessibility_label": "Ĉefa navigado",
+      "navigation_accessibility_message": "Vi navigis al {{sectionName}}",
+      "open_menu_accessibility_label": "Malfermu ĉefan navigadon",
+      "orders_link_label": "Mendoj",
+      "shop_logo_accessibility_label": "{{shopName}} emblemo",
+      "subscriptions_link_label": "Abonoj",
+      "settings_link": "Agordoj"
     }
   },
   "sections": {
