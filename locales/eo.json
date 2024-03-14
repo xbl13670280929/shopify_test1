@@ -1178,8 +1178,112 @@
         "confirmed_description": "Ni ricevis vian mendon.",
         "on_its_way_description": "Ĉi tiu sendo estas survoje.",
         "out_for_delivery_description": "Ĉi tiu sendo estas liverebla.",
-        "preparing_for_shipping_label": "Preparante por sendo"
-      }
+        "preparing_for_shipping_label": "Preparante por sendo",
+        "preparing_for_shipping_description": "Ĉi tiuj aĵoj estas pretaj por sendo.",
+        "ready_for_pickup_label": "Preta por preni",
+        "ready_for_pickup_description": "Ĉi tiuj aĵoj estas pretaj por preni. Bonvolu alporti vian mendonkonfirmon kiam vi prenas vian mendon.",
+        "ready_for_pickup_location": "Via mendo estas preta por preni ĉeloke",
+        "picked_up_label": "Kolektis",
+        "picked_up_description": "Ĉi tiuj aĵoj estis prenitaj.",
+        "canceled_description": "Via mendo estis nuligita je {{date}} .",
+        "canceled_label": "Nuligite",
+        "canceled_title": "Via mendo estas nuligita",
+        "come_back": "Revenu al ĉi tiu paĝo por ĝisdatigoj pri via sendostaso.",
+        "company_tracking_number": "{{company}} spura numero:",
+        "confirmed_label": "Konfirmita",
+        "confirmed_title": "Via mendo estas konfirmita",
+        "confirmed_description_pickup": "Vi ricevos retpoŝton kiam via mendo estos preta por preni.",
+        "confirmed_description_digital": "Vi ricevos retpoŝton kiam via mendo estos preta.",
+        "confirmed_description_gift_card_text": "Vi ricevos tekston kiam via mendo estos preta.",
+        "delivered_description": "Ĉi tiu sendo estis liverita.",
+        "delivered_label": "Liverita",
+        "delivered_title": "Via sendo estas liverita",
+        "delivered_description_digital": "Via mendo estas kompleta.",
+        "delivered_description_gift_card": {
+          "one": "Donackarto estis sendita retpoŝte.",
+          "other": "Donacaj kartoj estis senditaj retpoŝte."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "Donackarto estis sendita per teksto.",
+          "other": "Donacaj kartoj estis senditaj per teksto."
+        },
+        "gift_card_label": {
+          "one": "Donaca karto",
+          "other": "Donacaj kartoj"
+        },
+        "gift_card_resend": {
+          "one": "Resendu retpoŝton",
+          "other": "Resendu retpoŝtojn"
+        },
+        "gift_card_resend_text": {
+          "one": "Resendu tekston",
+          "other": "Resendu tekstojn"
+        },
+        "gift_resend_success": {
+          "one": "Donackarto resendita",
+          "other": "Donacaj kartoj resendita"
+        },
+        "gift_resend_failure": {
+          "one": "Okazis problemo resendante vian donackarton. Provu denove aŭ kontaktu nin.",
+          "other": "Okazis problemo dum resendo de viaj donackartoj. Provu denove aŭ kontaktu nin."
+        },
+        "gift_card_resend_description": {
+          "one": "Se ĝi ne estis ricevita, resendu la retpoŝton aŭ",
+          "other": "Se ili ne estis ricevitaj, resendu la retmesaĝojn aŭ"
+        },
+        "gift_card_resend_description_text": {
+          "one": "Se ĝi ne estis ricevita, resendu la tekston aŭ",
+          "other": "Se ili ne estis ricevitaj, resendu la tekstojn aŭ"
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "Donackarto estos sendita en aparta retpoŝto.",
+          "other": "Ĉiu donackarto estos sendita en aparta retpoŝto."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Donackarto estos sendita en aparta teksto.",
+          "other": "Ĉiu donackarto estos sendita en aparta teksto."
+        },
+        "estimated_delivery": "Laŭtaksa livero {{date}}",
+        "in_review_description": "Ni sciigos vin ĉu ni bezonas pliajn informojn aŭ kiam via mendo estos konfirmita.",
+        "in_review_label": "En recenzo",
+        "in_review_title": "Via mendo estas reviziita",
+        "last_updated": "Laste ĝisdatigita {{date}}",
+        "multiple_shipments_label": "Multoblaj sendoj",
+        "no_tracking_number": "Ne ekzistas spura numero por ĉi tiu sendo.",
+        "on_its_way_label": "Survoje",
+        "on_its_way_title": "Via sendo estas survoja",
+        "out_for_delivery_label": "For por livero",
+        "out_for_delivery_title": "Via sendo estas liverebla",
+        "resume_tracking": "Rekomencu spuradon",
+        "submitted_label": "Submetita",
+        "submitted_description": "Revizu mendo kaj pago detaloj.",
+        "there_was_a_problem_label": "Estis problemo",
+        "track_shipment": "Spuri sendon",
+        "request_return": "Petu revenon",
+        "view_order_for_details": "Vidu mendon por detaloj",
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Spuri kaj administri Aĉetu per Prime-mendo",
+            "new_window_disclaimer": "(malfermas novan fenestron)"
+          }
+        }
+      },
+      "status_mark_as_delivered": "Marku kiel liverita",
+      "status_title": "Ordo statuso",
+      "buy_again": "Aĉetu denove",
+      "buy_again_accessibility_label": "Aĉetu denove por mendo {{orderId}}",
+      "manage": "Administri",
+      "manage_accessiblity_label": "Administri mendon {{orderId}}",
+      "group_title_label": "Parto de: {{groupTitle}}",
+      "havent_received_your_delivery": "Ĉu vi ne ricevis vian liveron?",
+      "didnt_pick_up_order": "Ĉu vi ne prenis vian mendon?",
+      "if_you_didnt_receive_this": "Se vi ne ricevis ĉi tion,",
+      "if_not_received": {
+        "one": "Se ĝi ne estus ricevita,",
+        "other": "Se ili ne estus ricevitaj,"
+      },
+      "let_us_know": "Informu nin",
+      "contact_us": "kontaktu nin."
     },
     "payment_methods": {
       "add_payment_method": {
@@ -1192,7 +1296,126 @@
           "choose_billing_address_from_list_button_accessibility_label": "Elektu fakturadreson el la listo",
           "missing_billing_address_error_message": "Bonvolu specifi fakturadreson",
           "default_checkbox": "Agordu kiel defaŭltan pagmetodon"
+        },
+        "title": "Aldonu pagmetodon"
+      },
+      "title": "Pagmetodoj",
+      "add_payment_method_button": "Aldonu pagmetodon",
+      "add_payment_method_banner": "Aldonu pagmetodon por pli rapida pago aŭ antaŭrajtigitaj servoj",
+      "no_payment_methods_banner": "Neniuj pagmetodoj aldonitaj",
+      "edit_payment_method_button_accessibility_label": "Redaktu {{paymentMethodName}} finiĝantan per {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Redaktu {{paymentMethodName}}",
+      "delete_payment_method_button": "Forigi",
+      "delete_payment_method_button_accessibility_label": "Forigi {{paymentMethodName}}",
+      "back_button": "Reen",
+      "back_button_accessibility_label": "Reen al {{paymentMethodStepTitle}}",
+      "default": "Defaŭlte",
+      "generic_card": "Karto",
+      "expiration_warning_button_accessibility_label": "Montri eksvalidan averton por {{paymentMethodName}} finiĝanta per {{lastDigits}}",
+      "expires_soon": "Ĉi tiu karto baldaŭ eksvalidiĝas",
+      "expired": "Ĉi tiu karto eksvalidiĝis",
+      "card_update_consent": "Ĉi tiu pagmetodo estos konservita por estontaj aĉetoj.",
+      "digital_wallet_title": "Cifereca Monujo",
+      "credit_or_debit_card_title": "Kredit- aŭ debetkarto",
+      "google_pay": {
+        "loading": "Ŝargante Google Pay",
+        "errors": {
+          "generic": "Estis problemo kun Google Pay. Provu denove aŭ uzu alian pagmetodon.",
+          "missing_billing_address": "Google Pay postulas fakturadreson. Bonvolu aldoni unu al via konto."
         }
+      },
+      "apple_pay": {
+        "loading": "Ŝarĝante Apple Pay",
+        "errors": {
+          "generic": "Estis problemo kun Apple Pay. Provu denove aŭ uzu alian pagmetodon.",
+          "not_available": "Apple Pay ne disponeblas en ĉi tiu aparato.",
+          "missing_billing_address": "Apple Pay postulas fakturadreson. Bonvolu aldoni unu al via konto."
+        }
+      },
+      "payment_details": {
+        "title": "Detaloj pri pagmetodo",
+        "credit_card_details_accessibility_label": "finiĝanta per {{lastDigits}}",
+        "billing_title": "Faktura adreso",
+        "card_info_title": "Kartaj informoj",
+        "payment_method_expiring_on": "Eksvalidiĝo je {{expiryDate}}",
+        "payment_method_expired_on": "Eksvalidiĝis je {{expiryDate}}",
+        "preauthorized_payments": "Antaŭaŭtorizitaj pagoj",
+        "close_payment_modal": "Fermu",
+        "close_payment_modal_accessibility_label": "Fermu pagmetodo detaloj modalaj",
+        "payment_method_not_found_error": "Ne eblas trovi pagmetodon",
+        "payment_details_loading": "Ŝarĝante detalojn pri pagmetodo",
+        "pre_authorized_payments": "Antaŭrajtigitaj pagoj",
+        "total_amount_of_subscription_line_items_left": "kaj {{total}} pli",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} eroj entute, montrante {{totalItemsToDisplay}} eroj.",
+        "next_payment_due": "Venonta pago pagenda {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Redakti",
+        "edit_payment_method_button_accessibility_label": "Redaktu pagmetodon finiĝantan per {{lastDigits}}",
+        "loading_shop_pay": "Ŝarĝante Shop Pay",
+        "invalid_payment_method": "Nevalida pagmetodo",
+        "invalid_payment_method_message": "Uzu novan kreditkarton por daŭre ricevi venontajn mendojn.",
+        "replace_payment_method": "Anstataŭigi pagmetodon",
+        "checkout_card_banner": "Ĉi tiu pagmetodo povas esti uzata nur por antaŭrajtigitaj pagoj. Ĝi ne aperos ĉe la kaso se vi estas ensalutinta en ĉi tiun vendejon.",
+        "default_checkbox": "Agordu kiel defaŭltan",
+        "default_checkbox_accessibility_label": "Agordu ĉi tiun pagmetodon kiel defaŭltan"
+      },
+      "edit_payment_method": {
+        "title": "Redakti pagmetodon",
+        "save_payment_method_button": "Savi",
+        "cancel_edit_payment_method_button": "Nuligi",
+        "payment_method_updated_toast": "Pagmetodo ĝisdatigita",
+        "billing_address": "Faktura adreso",
+        "billing_address_add_new": "Aldonu novan",
+        "billing_address_choose_from_list": "Elektu el listo",
+        "future_purchases_notice": "Ĉi tiu pagmetodo estos konservita por estontaj aĉetoj.",
+        "generic_error": "Estis problemo dum ĝisdatigo. Bonvolu reprovi."
+      },
+      "card_fields": {
+        "card_number_label": "Kartonumero",
+        "card_number_placeholder": "Kartonumero",
+        "name_on_card_label": "Nomo sur karto",
+        "name_on_card_placeholder": "Nomo sur karto",
+        "card_expiry_label": "Limdato (MM \/ YY)",
+        "card_expiry_placeholder": "Limdato (MM \/ YY)",
+        "card_verification_value_label": "Sekureca kodo",
+        "card_verification_value_placeholder": "Sekureca kodo",
+        "card_start_label": "Eldondato (MM \/ YY)",
+        "card_start_placeholder": "Eldondato (MM \/ YY)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Pliaj informoj",
+          "card_verification_value_explanation_amex": "4-cifera sekureca kodo sur la fronto de via karto",
+          "card_verification_value_explanation_other": "3-cifera sekureca kodo sur la dorso de via karto",
+          "card_verification_value_explanation": "3-cifera sekureca kodo kutime troviĝas sur la dorso de via karto. American Express-kartoj havas 4-ciferan kodon situantan ĉe la fronto.",
+          "card_security_notice": "Ĉiuj transakcioj estas sekuraj kaj ĉifritaj."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Enigu vian nomon ĝuste kiel ĝi estas skribita sur via karto",
+          "credit_card_number_invalid": "Enigu validan kartnumeron",
+          "credit_card_expiry_invalid": "Enigu validan eksvalidan daton de karto",
+          "credit_card_verification_value_blank": "Enigu la CVV aŭ sekurecan kodon sur via karto"
+        }
+      },
+      "payment_delete": {
+        "title": "Forigi pagmetodon",
+        "description_without_replacement": "Ĉi tiu pagmetodo ne plu estos disponebla por estontaj aĉetoj.",
+        "description_with_replacement": "Forigo de ĉi tiu pagmetodo influos antaŭaŭtorizitajn pagojn. Vi povas laŭvole anstataŭigi ĝin per alia pagmetodo por daŭre ricevi venontajn mendojn.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Forigo de ĉi tiu pagmetodo influos antaŭaŭtorizitajn pagojn. Krom se vi elektas alternativan pagmetodon, ĉi tiu pagmetodo ankoraŭ estos ŝargita por ajnaj restantaj saldoj sur ekzistantaj mendoj. Elektante alternativan pagmetodon permesos al vi ricevi venontajn abonmendojn sen interrompo.",
+          "with_pending_orders": "Forigi ĉi tiun pagmetodon forigos ĝin de via konto kaj ne plu estos disponebla por estontaj aĉetoj. Krom se vi elektas alternativan pagmetodon, ĝi ankoraŭ estos ŝargita por ajnaj restantaj saldoj sur ekzistantaj mendoj.",
+          "with_subscriptions": "Forigo de ĉi tiu pagmetodo influos antaŭaŭtorizitajn pagojn. Anstataŭigu ĝin per alternativa pagmetodo por daŭre ricevi venontajn mendojn."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Forigo de ĉi tiu pagmetodo influos antaŭaŭtorizitajn pagojn. Ĉi tiu pagmetodo ankoraŭ estos ŝargita por ajnaj restantaj saldoj sur ekzistantaj mendoj, sed vi ne ricevos venontajn abonmendojn. Aldonu alternativan pagmetodon por daŭre ricevi abonmendojn.",
+          "with_pending_orders": "Forigi ĉi tiun pagmetodon forigos ĝin de via konto kaj ne plu estos disponebla por estontaj aĉetoj. Ĝi ankoraŭ estos ŝargita por ajnaj restantaj saldoj sur ekzistantaj mendoj.",
+          "with_subscriptions": "Forigo de ĉi tiu pagmetodo influos antaŭaŭtorizitajn pagojn. Aldonu alternativan pagmetodon por daŭre ricevi venontajn mendojn."
+        },
+        "payment_method_selector_placeholder": "Elektu anstataŭan pagmetodon (laŭvola)",
+        "payment_method_selector_no_alternative_payment": "Neniu anstataŭiga metodo",
+        "replace_method_with_new_method_description": "Via {{currentPaymentMethodName}} estos forigita kaj anstataŭigita per via {{newPaymentMethodName}} .",
+        "error_when_deleting": "Ni pardonpetas sed io misfunkciis kaj ni ne povis forigi ĉi tiun pagmetodon. Bonvolu provi denove poste aŭ refreŝigi la paĝon.",
+        "delete_and_replace_button": "Forigu kaj anstataŭigu",
+        "delete_and_replace_button_accessibility_label": "Forigu {{currentPaymentMethodName}} kaj anstataŭigu per {{newPaymentMethodName}} .",
+        "deleted_successfully": "Pagmetodo sukcese forigita.",
+        "loading_available_payment_methods_accessibility_label": "Ŝarĝante disponeblajn pagmetodojn"
       }
     },
     "payment_method_brands": {
@@ -1450,6 +1673,15 @@
       "order_not_found": {
         "description": "Ĉi tiu ordo ne ekzistas aŭ vi ne havas permeson vidi ĝin.",
         "title": "Ordo ne trovita"
+      },
+      "profile_update_error": {
+        "description": "Estis problemo ĝisdatigante vian profilon. Provu refreŝigi ĉi tiun paĝon aŭ kontrolu vian interretan konekton."
+      },
+      "retry_action_label": "Reprovi",
+      "load_extension_error": {
+        "title": "Eraro",
+        "description": "Refreŝigu ĉi tiun paĝon aŭ provu denove post kelkaj minutoj.",
+        "refresh_button": "Refreŝigi paĝon"
       }
     },
     "enable_javascript": "Por vidi vian konton, ebligu JavaScript en via retumila agordo aŭ ensalutu per alia retumilo.",
@@ -1484,6 +1716,38 @@
       "shop_logo_accessibility_label": "{{shopName}} emblemo",
       "subscriptions_link_label": "Abonoj",
       "settings_link": "Agordoj"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Montru detalojn",
+        "expand_events_accessibility_label": "Montru detalojn pri sendado de mendo",
+        "hide_events_label": "Kaŝi detalojn",
+        "hide_events_accessibility_label": "Kaŝi ordonajn sendodetalojn"
+      },
+      "addresses_section_title": "Fakturado kaj sendo",
+      "order_details": "Mendaj detaloj",
+      "order_details_skeleton_accessibility_label": "Ensalutu por vidi ĉiujn menddetalojn.",
+      "billing_address": "Faktura adreso",
+      "card_ending_with": "finiĝante per {{lastDigits}}",
+      "contact": "Kontaktu",
+      "contact_information": "Kontakt-informoj",
+      "company": "Kompanio",
+      "fully_refunded_label": "REPAGOS",
+      "group_title_label": "Parto de: {{groupTitle}}",
+      "discount": "Rabato",
+      "hide_items": "Kaŝi erojn",
+      "loading": "Ŝarĝante mendo detaloj",
+      "loading_finished_accessibility_message": "Mendaj detaloj estis ŝarĝitaj",
+      "location": "Loko",
+      "image_gallery": {
+        "next": "Montru sekvajn erojn",
+        "previous": "Montru antaŭajn erojn"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Montru mendan resumon",
+        "closed": "Kaŝi mendan resumon"
+      },
+      "no_data": "Neniu"
     }
   },
   "sections": {
