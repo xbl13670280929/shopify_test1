@@ -1016,6 +1016,178 @@
         "button": "Elsaluti ĉie",
         "warning_message": "Vi ankaŭ estos elsalutita en ĉi tiu aparato."
       }
+    },
+    "B2B": {
+      "addresses": {
+        "save_new_billing_address_accessibility_label": "Konservu fakturadreson",
+        "save_new_shipping_address_accessibility_label": "Konservu sendan adreson",
+        "shipping_address_card_title": "Sendo adreso"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Kaŝi ĉion",
+          "show_all": "Montru ĉion",
+          "hide_all_accessibility_label": "Kaŝi ĉiujn mendojn en revizio",
+          "show_all_accessibility_label": "Montru ĉiujn mendojn en revizio",
+          "show_all_orders_in_review": "Montru ĉiujn mendojn en revizio",
+          "show_less_orders_in_review": "Montru malpli da mendoj en revizio",
+          "title": "Decidota",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Vi ne havas pritraktatajn mendojn",
+            "pending_orders": {
+              "one": "Vi havas {{count}} pritraktatan mendon",
+              "other": "Vi havas {{count}} pritraktatajn mendojn"
+            },
+            "more_than_pagination_length": "Vi havas pli ol {{count}} pritraktatajn mendojn"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}} +",
+          "pagination": {
+            "nav_accessibility_label": "Mendoj en revizio navigado butonoj"
+          }
+        },
+        "order_list_column_headers_location": "Loko",
+        "order_list_column_headers_contact": "Kontaktu",
+        "removed_company_contact_tooltip": "Forigita de firmao"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Konfirmita {{date}} de mendo {{draftOrderName}}",
+        "loading": "Ŝarĝante mendo detaloj",
+        "loading_finished_accessibility_message": "Mendaj detaloj estis ŝarĝitaj",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Via pago estas post {{count}} tagoj",
+              "other": "Via pago estas prokrastita de {{count}} tagoj"
+            },
+            "banner_due": {
+              "one": "Via pago estas pagenda en {{count}} tago",
+              "other": "Via pago estas pagenda en {{count}} tagoj"
+            },
+            "banner_due_today": "Via pago estas pagebla hodiaŭ",
+            "title": "Pago ŝuldata",
+            "title_with_date": "Pago antaŭ {{date}}",
+            "title_due_on_receipt": "Pago ankoraŭ ne ŝuldata",
+            "title_due_on_fulfillment": "Pago ŝuldata je plenumo",
+            "description_overdue": "Via pago estas malfrua.",
+            "description_partially_paid": "Ĉi tiu mendo estis parte pagita. Vi havas restantan ekvilibron.",
+            "description_authorized": "Via pagmetodo estos ŝargita en la limdato, aŭ vi povas pagi nun.",
+            "description_waiting_for_manual_payment": "La mendo estos markita kiel pagita kiam pago estas ricevita.",
+            "description_due_on_receipt": "Vi ricevos fakturon kiam pago estos.",
+            "description_due_on_receipt_partially_paid": "Ĉi tiu mendo estis parte pagita. Vi havas restantan ekvilibron. Vi ricevos fakturon kiam pago estos.",
+            "description_due_on_fulfillment": "Pago estas pagenda post kiam ĉiuj eroj en ĉi tiu ordo estas plenumitaj.",
+            "description_due_on_fulfillment_partially_paid": "Ĉi tiu mendo estis parte pagita. Vi havas restantan ekvilibron. Pago estas pagenda post kiam ĉiuj eroj en ĉi tiu ordo estas plenumitaj."
+          },
+          "draft": {
+            "description": "Pagaj detaloj estas deciditaj kiam la mendo estas konfirmita.",
+            "title": "Pago ankoraŭ ne ŝuldata",
+            "in_review": {
+              "description": "Pagaj detaloj estas deciditaj kiam la mendo estas konfirmita.",
+              "title": "Pago ankoraŭ ne ŝuldata"
+            },
+            "submitted": {
+              "description": "Sendu pagon por konfirmi ĉi tiun mendon.",
+              "title": "Pagu por konfirmi"
+            }
+          },
+          "paid": {
+            "title": "Pagita",
+            "title_with_date": "Pagita {{date}}",
+            "description": "Via mendo estas plene pagita."
+          },
+          "refund": {
+            "title": "Repagita",
+            "title_with_date": "Repagita {{date}}",
+            "description_full_refund": "Vi ricevis plenan repagon por ĉi tiu mendo.",
+            "description_single_refund": "Vi ricevis partan repagon por ĉi tiu mendo.",
+            "description_multiple_refunds": "Vi ricevis partajn repagojn por ĉi tiu mendo."
+          },
+          "canceled": {
+            "title": "Pago nuligita",
+            "description": "Vi ne estis akuzita."
+          },
+          "pay_now": "Pagu nun",
+          "pay_now_accessibility_label": "Pagu nun por mendo {{orderName}}",
+          "title": "Paga stato"
+        },
+        "order_timeline": {
+          "expand_events_label": "Montru detalojn",
+          "expand_events_accessibility_label": "Montru detalojn pri malneto de mendo",
+          "hide_events_label": "Kaŝi detalojn",
+          "hide_events_accessibility_label": "Kaŝi malnetajn ordon detalojn"
+        },
+        "subtitle": "Sendita {{date}}",
+        "title": "Mendu {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Ĉi tiu pagmetodo ne plu estos disponebla por estontaj aĉetoj de ĉi tiu loko.",
+          "description_with_replacement": "Forigo de ĉi tiu pagmetodo influos antaŭaŭtorizitajn pagojn por ĉi tiu loko. Anstataŭigu ĝin per alternativa pagmetodo por daŭre ricevi venontajn mendojn."
+        },
+        "payment_details": {
+          "order_label": "Mendu {{name}}",
+          "draft_label": "Malneto de ordo {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Aldonu PO-numeron",
+        "add_modal_title": "Aldonu PO-numeron",
+        "cancel": "Nuligi",
+        "close_modal_accessibility_label": "Fermu PO-numero modalon",
+        "discard": "Forĵeti",
+        "discard_changes_modal_title": "Forĵeti ŝanĝojn?",
+        "edit_accessibility_label": "Redaktu PO-numeron",
+        "edit_modal_title": "Redaktu PO-numeron",
+        "empty_state": "Neniu PO-numero",
+        "modal_po_number_input_label": "PO-numero",
+        "modal_po_number_input_max_length_error": "PO-nombroj havas maksimume {{maxLength}} signojn.",
+        "save": "Savi",
+        "title": "PO # {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Okazis problemo dum forigo de ĉi tiu adreso. Provu denove aŭ refreŝigu la paĝon."
+      },
+      "addresses_loading_issue": {
+        "description": "Eraro de konekto. Kontrolu vian interretan konekton kaj provu denove."
+      },
+      "banner_title": {
+        "one": "Estas {{count}} eraro",
+        "other": "Estas {{count}} eraroj"
+      },
+      "failed_address_creation": {
+        "description": "Estis problemo dum kreado de via adreso. Provu refreŝigi ĉi tiun paĝon aŭ kontrolu vian interretan konekton."
+      },
+      "failed_address_update": {
+        "description": "Estis problemo ĝisdatigante vian adreson. Provu refreŝigi ĉi tiun paĝon aŭ kontrolu vian interretan konekton."
+      },
+      "load_orders_error": {
+        "title": "Ne eblas ŝargi mendojn",
+        "description": "Reprovu aŭ revenu poste.",
+        "retry_button": "Reprovi"
+      },
+      "load_paypal_error": {
+        "description": "Estas problemo dum ŝarĝo de PayPal. Bonvolu reprovi."
+      },
+      "logout_everywhere": {
+        "description": "Io misfunkciis dum elsaluto. Bonvolu reprovi."
+      },
+      "no_access": {
+        "back_to_authentication_link": "Ensalutu en malsaman konton",
+        "description": "Vi ne estas registrita kiel B2B-kliento kun {{shopName}}",
+        "title": "Neniu aliro"
+      },
+      "no_access_to_locations": {
+        "description": "Vi ne havas aliron al iuj lokoj"
+      },
+      "not_found": {
+        "description": "Kontrolu la URL aŭ provu denove post kelkaj minutoj.",
+        "title": "Estas problemo dum ŝarĝo de ĉi tiu paĝo"
+      },
+      "order_not_found": {
+        "description": "Ĉi tiu ordo ne ekzistas aŭ vi ne havas permeson vidi ĝin.",
+        "title": "Ordo ne trovita"
+      }
     }
   },
   "sections": {
