@@ -564,5 +564,14 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "wallets": {
+        "errors": {
+          "select_different_shipping_address_to_resolve_errors": "Votre adresse de livraison n'est pas valide. Sélectionnez une autre adresse ou utilisez-en une nouvelle."
+        }
+      }
+    }
   }
 }
